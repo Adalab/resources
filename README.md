@@ -1,8 +1,8 @@
-# Adalab technical resources for use in exercises, examples ...
+# Adalab technical resources for use in exercises, examples...
 
-This repository is published with GitHub Pages in the URL: http://beta.adalab.es/resources
+This repository is published with GitHub Pages in http://beta.adalab.es/resources
 
-To use one of these resources in your code use this URL + the file path. For example:
+To use one of these resources in your code use `http://beta.adalab.es/resources/FOLDER/FILE-NAME.EXT`. For example:
 
 ```html
 <link rel="stylesheet" href="http://beta.adalab.es/resources/stylesheets/all.css" />
