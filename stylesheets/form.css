@@ -1,30 +1,36 @@
+.form__label {
+  margin: 0 0 0.25rem 0;
+  font-size: 1rem;
+}
+
 .form__input-text {
-  margin: 5px;
-  padding: 5px;
-  background-color: #fff;
+  margin: 0.25rem;
+  padding: 0.3rem;
+  background-color: #ddd;
   border: none;
-  border: 2px solid #14d9c4;
-  border-radius: 5px;
-  font-size: 12px;
+  border-radius: 0.3rem;
+  font-size: 1rem;
   outline: none;
-  transition: 0.25s all;
+  vertical-align: middle;
 }
 
 .form__input-text:focus {
-  border-color: #099d8d;
+  background-color: #ccc;
 }
 
 .form__btn {
-  margin: 5px;
-  padding: 6px 12px 5px 12px;
+  margin: 0.25rem;
+  padding: 0.35rem 0.8rem;
   text-align: center;
   background-color: #14d9c4;
-  border: 2px solid #099d8d;
-  border-radius: 5px;
+  border: none;
+  border-radius: 0.3rem;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 0.9rem;
+  vertical-align: middle;
+  font-weight: 700;
+  outline: none;
   color: #fff;
-  transition: 0.25s all;
 }
 
 .form__btn:hover {

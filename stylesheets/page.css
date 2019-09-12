@@ -1,0 +1,17 @@
+.page {
+  padding: 1rem;
+  background: 0;
+}
+
+.page * {
+  transition: 0.5s all;
+}
+
+.col2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.col2 > * {
+  width: 50%;
+}
