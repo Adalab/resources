@@ -1,11 +1,33 @@
-.btn {
-  padding: 1rem 2rem;
-  display: inline-block;
-  vertical-align: middle;
-  white-space: nowrap;
-  font-size: 1rem;
+.form__input-text {
+  margin: 5px;
+  padding: 5px;
+  background-color: #fff;
+  border: none;
+  border: 2px solid #14d9c4;
+  border-radius: 5px;
+  font-size: 12px;
+  outline: none;
+  transition: 0.25s all;
+}
+
+.form__input-text:focus {
+  border-color: #099d8d;
+}
+
+.form__btn {
+  margin: 5px;
+  padding: 6px 12px 5px 12px;
   text-align: center;
   background-color: #14d9c4;
-  border-radius: 3px;
+  border: 2px solid #099d8d;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
   color: #fff;
+  transition: 0.25s all;
+}
+
+.form__btn:hover {
+  background-color: #099d8d;
+  border-color: #14d9c4;
 }
