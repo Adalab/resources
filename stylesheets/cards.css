@@ -48,6 +48,8 @@
   cursor: pointer;
   font-size: 0.8rem;
   font-weight: 700;
+  text-align: center;
+  text-decoration: none;
   color: #fff;
   transition: 0.25s all;
 }
