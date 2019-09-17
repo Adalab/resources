@@ -1,0 +1,10 @@
+.nav__item {
+  display: inline-block;
+  padding: 5px 5px 5px 0;
+}
+.nav__link {
+  color: #14d9c4;
+}
+.nav__link:hover {
+  color: #099d8d;
+}
