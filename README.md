@@ -1,4 +1,4 @@
-# Adalab technical resources for use in exercises, examples...
+# Adalab technical resources for use in exercises, examples... and many other resources
 
 This repository is published with GitHub Pages in http://beta.adalab.es/resources
 
