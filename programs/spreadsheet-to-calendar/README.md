@@ -2,6 +2,8 @@
 
 ## Paso 1: Limpiar el formato del spreadsheet
 
+Crear un nuevo spreadsheet con el siguiente formato
+
 | turn   | startTime | endTime | 11/10/2019                                                     | 14/10/2019                                               | 15/10/2019                           |
 | ------ | --------- | ------- | -------------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------ |
 | Mañana | 8:00      | 10:10   | Intro al espacio de trabajoSP 1.1Intro a la web                | SP 1.2Mi primera página web                              | SP 1.3Modelo de cajas y herramientas |
