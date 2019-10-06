@@ -9,4 +9,4 @@ module.exports.headers = {
 // module.exports.turn = 'Mañana';
 module.exports.turn = 'Tarde';
 
-module.exports.outputPath = './calendar.csv';
+module.exports.outputPath = './calendars/output.csv';

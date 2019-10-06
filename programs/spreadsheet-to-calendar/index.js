@@ -2,7 +2,7 @@ const fs = require('fs');
 const _ = require('lodash');
 const { parse } = require('json2csv');
 const config = require('./config');
-const source = require('./calendars/source.json');
+const source = require('./calendars/input.json');
 
 // getters
 
@@ -44,7 +44,11 @@ const getTurn = (schedule, rowNumber) => {
 };
 
 const isValidEvent = (name, date, turn) => {
-  return !_.isEmpty(name) && date.split('/').length === 3 && turn === config.turn;
+  if (date.includes('/') && date.split('/').length !== 3) {
+    console.log('Date format error:', date, name);
+  } else {
+    return !_.isEmpty(name) && turn === config.turn;
+  }
 };
 
 // schedule
