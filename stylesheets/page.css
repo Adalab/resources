@@ -30,6 +30,6 @@
   display: none;
 }
 
-.border-medium {
+.border--medium {
   border: solid 3px #ddd;
 }
