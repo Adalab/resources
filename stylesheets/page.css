@@ -24,6 +24,12 @@
   display: inline-block;
 }
 
+/* others styles */
+
 .hidden {
   display: none;
+}
+
+.border-medium {
+  border: solid 3px #ddd;
 }
