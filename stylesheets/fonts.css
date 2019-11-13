@@ -32,3 +32,15 @@
 .text-align-right {
   text-align: right;
 }
+
+.text--error {
+  color: #d50f25;
+}
+
+.text--success {
+  color: #009925;
+}
+
+.text--warning {
+  color: #eeb211;
+}

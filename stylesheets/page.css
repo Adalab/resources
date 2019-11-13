@@ -33,3 +33,15 @@
 .border--medium {
   border: solid 3px #ddd;
 }
+
+.border--error {
+  border-color: #d50f25;
+}
+
+.border--success {
+  border-color: #009925;
+}
+
+.border--warning {
+  border-color: #eeb211;
+}
