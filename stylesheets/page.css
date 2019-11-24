@@ -31,6 +31,8 @@
 }
 
 .border--medium {
+  margin: 0.3rem;
+  padding: 0.3rem;
   border: solid 3px #ddd;
 }
 
