@@ -53,3 +53,8 @@
 .text--code {
   font-family: "Cutive Mono", monospace;
 }
+
+.text--help {
+  font-size: 1rem;
+  color: #666;
+}
