@@ -27,6 +27,7 @@
       0,
       "global"
     ],
+    "no-debugger": 1,
     "no-console": 1,
     "array-callback-return": 1,
     "block-scoped-var": 1,
