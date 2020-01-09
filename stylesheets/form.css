@@ -36,6 +36,10 @@
   color: #fff;
 }
 
+.form__btn * {
+  color: white;
+}
+
 .form__btn:hover {
   background-color: #099d8d;
   border-color: #14d9c4;

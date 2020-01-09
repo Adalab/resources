@@ -1,0 +1,22 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-top: solid 1px #ccc;
+}
+
+.table tr td {
+  padding: 10px;
+  border-bottom: solid 1px #ccc;
+  font-size: 14px;
+}
+
+.table tr.bold td {
+  background: #eee;
+  font-weight: bold;
+}
+
+.table tr:hover td {
+  background: #ddd;
+  border-top: solid 1px #ccc;
+  z-index: 2;
+}

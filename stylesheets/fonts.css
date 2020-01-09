@@ -46,6 +46,10 @@
   color: #eeb211;
 }
 
+.text--normal {
+  font-weight: normal;
+}
+
 .text--bold {
   font-weight: 700;
 }
