@@ -1,8 +1,8 @@
-# Adalab technical resources for use in exercises, examples... and many other resources
+# Recursos técnicos de Adalab para usarlos en ejercicios, ejemplos y muchas otras cosas
 
-This repository is published with GitHub Pages in http://beta.adalab.es/resources
+Este repositorio está publicado con GitHub Pages en http://beta.adalab.es/resources
 
-To use one of these resources in your code use `http://beta.adalab.es/resources/FOLDER/FILE-NAME.EXT`. For example:
+Para uno de estos recursos en tu código usa `http://beta.adalab.es/resources/FOLDER/FILE-NAME.EXT`. Por ejemplo:
 
 ```html
 <link
@@ -15,6 +15,10 @@ To use one of these resources in your code use `http://beta.adalab.es/resources/
 <img src="http://beta.adalab.es/resources/images/adalab-logo-32x32.png"
 alt="Adalab />
 ```
+
+# Página de carátula para vídeos
+
+- http://beta.adalab.es/resources/pages/video-cover/
 
 ## Colores corporativos de Adalab
 
