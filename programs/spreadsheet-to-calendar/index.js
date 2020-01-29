@@ -13,7 +13,7 @@ const getName = name => {
     name = name.replace(/ *\([^)]*\) */g, "");
   }
   // remove break lines and extra spaces
-  return _.trim(name.replace(/\n/g, " ").replace(/  /g, " "));
+  return _.trim(name.replace(/\n/g, " ").replace(/ {2}/g, " "));
 };
 
 const getDate = date => {
@@ -44,7 +44,7 @@ const getTurn = (schedule, rowNumber) => {
 };
 
 const isValidEvent = (name, date, turn) => {
-  if (date.includes("/") && date.split("/").length !== 3) {
+  if (!date.includes("/") && date.split("/").length !== 3) {
     console.log("Date format error:", date, name);
   } else {
     return !_.isEmpty(name) && turn === config.turn;
