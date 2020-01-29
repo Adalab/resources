@@ -17,14 +17,14 @@ Crear un nuevo spreadsheet con el siguiente formato
 
 - Descargar el spreadsheet en formato CSV
 - Convertir a JSON a través de https://www.csvjson.com/csv2json
-- Guardar en `./calendars/source.json`
+- Guardar en `./calendars/input.json`
 
 ## Paso 3: Elegir turno
 
 - Editar `./config.js` > `turn`
 
 ```javascript
-module.exports.turn = 'Mañana';
+module.exports.turn = "Mañana";
 // module.exports.turn = 'Tarde';
 ```
 
