@@ -19,7 +19,7 @@ const setToLocalStorage = () => {
     tasks: [...document.querySelectorAll(".js-edit-task")]
       .map((task, idx) => ({
         name: task.value,
-        active: document.querySelectorAll(".js-task-check")[idx].checked
+        active: (document.querySelectorAll(".js-task-check")[idx] || {}).checked
       }))
       .filter(task => task.name !== "")
   };
