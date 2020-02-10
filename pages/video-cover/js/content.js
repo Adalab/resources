@@ -61,7 +61,7 @@ const paintTasksEdit = tasks => {
   for (const task of tasks) {
     tasksHtmlCode += paintDataTask(task);
   }
-  // tasksHtmlCode += paintDataTask({ name: "" });
+  tasksHtmlCode += paintDataTask({ name: "" });
   document.querySelector(".js-edit-tasks").innerHTML = tasksHtmlCode;
 };
 
