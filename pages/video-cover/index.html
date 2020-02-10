@@ -12,60 +12,24 @@
 
   <body>
 
-    <div class="container" contenteditable="true" spellcheck="false">
+    <div class="container">
 
       <header class="header">
-        <h1 class="title">
-          Introducción a Flexbox
+        <h1 class="title js-title">
+          Intro a Flexbox
         </h1>
-        <h2 class="subtitle">
+        <h2 class="subtitle js-subtitle">
           Conceptos básicos
         </h2>
       </header>
 
       <main class="main">
         <form>
-          <ul class="tasks">
+          <ul class="tasks js-tasks">
             <li>
               <div class="task">
                 <input class="task__check" type="checkbox">
                 <label class="task__label">Primer paso</label>
-              </div>
-              <div class="task">
-                <input class="task__check" type="checkbox">
-                <label class="task__label">Segundo paso</label>
-              </div>
-              <div class="task">
-                <input class="task__check" type="checkbox">
-                <label class="task__label">Tercer paso</label>
-              </div>
-              <div class="task">
-                <input class="task__check" type="checkbox">
-                <label class="task__label">Cuarto paso</label>
-              </div>
-              <div class="task">
-                <input class="task__check" type="checkbox">
-                <label class="task__label">Quinto paso</label>
-              </div>
-              <div class="task">
-                <input class="task__check" type="checkbox">
-                <label class="task__label">Sexto paso</label>
-              </div>
-              <div class="task">
-                <input class="task__check" type="checkbox">
-                <label class="task__label">Séptimo paso</label>
-              </div>
-              <div class="task">
-                <input class="task__check" type="checkbox">
-                <label class="task__label">Octavo paso</label>
-              </div>
-              <div class="task">
-                <input class="task__check" type="checkbox">
-                <label class="task__label">Noveno paso</label>
-              </div>
-              <div class="task">
-                <input class="task__check" type="checkbox">
-                <label class="task__label">Último paso</label>
               </div>
             </li>
           </ul>
@@ -74,14 +38,35 @@
 
     </div>
 
+    <div class="js-edit edit hidden">
+
+      <form>
+        <label class="edit__label">
+          Título:
+        </label>
+        <input type="text" name="title" class="js-edit-title edit__input">
+        <label class="edit__label">
+          Subtítulo:
+        </label>
+        <input type="text" name="subtitle" class="js-edit-subtitle edit__input">
+        <label class="edit__label">Tareas:</label>
+        <ul class="js-edit-tasks edit__taks"></ul>
+      </form>
+
+    </div>
+
     <footer class="footer">
       <a class="copy" href="ok.html">
-        <span class="js-date">22 de enero de 2020</span>
-        &copy; Adalab</a>
-      <img class="logo" src="//beta.adalab.es/resources/images/adalab-logo.svg" alt="Adalab">
+        <span class="js-date">
+          22 de enero de 2020
+        </span>
+        &copy; Adalab
+      </a>
+      <img class="logo js-logo" src="//beta.adalab.es/resources/images/adalab-logo.svg" alt="Adalab">
     </footer>
 
-    <script src="./js/main.js"></script>
+    <script src="./js/content.js"></script>
+    <script src="./js/date.js"></script>
 
   </body>
 

@@ -1,3 +1,5 @@
+/* reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +15,32 @@ html {
   font-size: 16px;
 }
 
+/* body */
+
+body {
+  background: linear-gradient(
+    135deg,
+    #fff 0%,
+    #f1f1f1 50%,
+    #e8e8e8 51%,
+    #f6f6f6 100%
+  );
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* container */
+
 .container {
   padding: 2rem 5rem;
   height: 90vh;
@@ -24,6 +52,8 @@ html {
 .page-ok .container {
   align-items: center;
 }
+
+/* front */
 
 .title {
   margin: 0 0 2rem 0;
@@ -57,6 +87,8 @@ html {
   transform: scale(1.5);
 }
 
+/* footer */
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -74,24 +106,42 @@ html {
   height: 7vh;
 }
 
-body {
-  background: linear-gradient(
-    135deg,
-    #fff 0%,
-    #f1f1f1 50%,
-    #e8e8e8 51%,
-    #f6f6f6 100%
-  );
+/* edit */
+
+.edit.hidden {
+  opacity: 0;
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+.edit {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 2vh 2vh 0 0;
+  padding: 5vh;
+  background: white;
+  border-radius: 1vh;
+  box-shadow: 0px 0px 20px 4px #999;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.edit__taks {
+  max-height: 60vh;
+  overflow-y: auto;
+  list-style: none;
+}
+
+.edit__label {
+  display: block;
+  font-size: 3vh;
+  color: #14d9c4;
+}
+
+.edit__input {
+  margin: 0.5vh 0;
+  padding: 0.3vh;
+  width: 40vh;
+  border: 0.1vh solid #ccc;
+  border-radius: 0.2vh;
+  font-size: 2vh;
 }
