@@ -1,107 +1,142 @@
-"use strict";
+'use strict';
 
-// local storage
+// start app
 
-const getFromLocalStorage = () => {
-  const rawData = localStorage.getItem("data") || "{}";
-  const data = JSON.parse(rawData);
+const startApp = () => {
+  const data = getFromLocalStorage() || getDefaultData();
+  data.tasks = data.tasks.length ? data.tasks : getDefaultData().tasks;
+  setToLocalStorage(data);
+  paintData(data);
+  document.body.addEventListener('dblclick', ensureTime);
+  document.body.addEventListener('click', ensureData);
+  document.body.addEventListener('keyup', ensureData);
+};
+
+// data
+
+const ensureData = ev => {
+  checkBtns(ev);
+  setToLocalStorage(getCurrentData());
+};
+
+const getDefaultData = () => {
   return {
-    title: data.title || "",
-    subtitle: data.subtitle || "",
-    tasks: data.tasks || []
+    title: 'Título',
+    subtitle: 'Subtítulo',
+    tasks: [
+      {
+        checked: false,
+        label: 'Primera tarea',
+        time: getTime()
+      }
+    ]
   };
 };
 
-const setToLocalStorage = () => {
-  const data = {
-    title: document.querySelector(".js-edit-title").value,
-    subtitle: document.querySelector(".js-edit-subtitle").value,
-    tasks: [...document.querySelectorAll(".js-edit-task")]
-      .map((task, idx) => ({
-        name: task.value,
-        active: (document.querySelectorAll(".js-task-check")[idx] || {}).checked
-      }))
-      .filter(task => task.name !== "")
+const getCurrentData = () => {
+  const tasks = [];
+  for (const task of document.querySelectorAll('.js-task')) {
+    tasks.push({
+      label: getElData('label', 'innerHTML', task),
+      checked: getElData('checkbox', 'checked', task),
+      time: getElData('time', 'innerHTML', task)
+    });
+  }
+  return {
+    title: getElData('title'),
+    subtitle: getElData('subtitle'),
+    tasks
   };
-  localStorage.setItem("data", JSON.stringify(data));
 };
 
 // paint
 
-const paintData = () => {
-  const data = getFromLocalStorage();
-  paintText("title", data.title);
-  paintText("subtitle", data.subtitle);
-  paintTasksList(data.tasks);
-  paintTasksEdit(data.tasks);
-};
-
-const paintText = (selector, text) => {
-  document.querySelector(".js-" + selector).innerHTML = text;
-  document.querySelector(".js-edit-" + selector).value = text;
-};
-
-const paintTasksList = tasks => {
-  let tasksHtmlCode = "";
-  for (const task of tasks) {
-    tasksHtmlCode += `<li>`;
-    tasksHtmlCode += `<div class="task">`;
-    tasksHtmlCode += `<input class="task__check js-task-check" type="checkbox" `;
-    tasksHtmlCode += task.active ? "checked" : "";
-    tasksHtmlCode += `>`;
-    tasksHtmlCode += `<label class="task__label">${task.name}</label>`;
-    tasksHtmlCode += `</div>`;
-    tasksHtmlCode += `</li>`;
+const paintData = data => {
+  setElData('title', data.title);
+  setElData('subtitle', data.subtitle);
+  let tasksCode = '';
+  for (let i = 0; i < data.tasks.length; i++) {
+    tasksCode += `<li class="task js-task">`;
+    tasksCode += `  <div class="btns">`;
+    tasksCode += `    <input type="button" class="btn js-remove" data-index="${i}" value="-">`;
+    tasksCode += `    <input type="button" class="btn js-add" data-index="${i}" value="+">`;
+    tasksCode += `  </div>`;
+    tasksCode += `  <input class="checkbox js-checkbox" type="checkbox" ${data.tasks[i].checked ? 'checked' : ''}>`;
+    tasksCode += `  <label class="label js-label" contenteditable="true">${data.tasks[i].label}</label>`;
+    tasksCode += `  <span class="time js-time" contenteditable="true">${data.tasks[i].time}</span>`;
+    tasksCode += `</li>`;
   }
-  document.querySelector(".js-tasks").innerHTML = tasksHtmlCode;
+  setElData('tasks', tasksCode);
 };
 
-const paintTasksEdit = tasks => {
-  let tasksHtmlCode = "";
-  for (const task of tasks) {
-    tasksHtmlCode += paintDataTask(task);
+// time
+
+const ensureTime = ev => {
+  if (ev.target.classList.contains('js-time')) {
+    ev.target.innerHTML = getTime();
   }
-  tasksHtmlCode += paintDataTask({ name: "" });
-  document.querySelector(".js-edit-tasks").innerHTML = tasksHtmlCode;
 };
 
-const paintDataTask = (task = "") => {
-  let taskHtmlCode = "";
-  taskHtmlCode += `<li>`;
-  taskHtmlCode += `<input type="text" class="js-edit-task edit__input" value="${task.name}" active=${task.active}>`;
-  taskHtmlCode += `</li>`;
-  return taskHtmlCode;
+// buttons
+
+const checkBtns = ev => {
+  const index = parseInt(ev.target.dataset.index);
+  const data = getCurrentData();
+  if (ev.target.classList.contains('js-remove')) {
+    data.tasks.splice(index, 1);
+    setToLocalStorage(data);
+    paintData(data);
+  } else if (ev.target.classList.contains('js-add')) {
+    data.tasks.splice(index + 1, 0, getDefaultData().tasks[0]);
+    setToLocalStorage(data);
+    paintData(data);
+  }
 };
 
-// listen events
+// helpers: local storage
 
-const ensureData = () => {
-  setToLocalStorage();
-  paintData();
-  listenElements();
+const getFromLocalStorage = () => {
+  const key = getQueryParam('ls', 'default');
+  return JSON.parse(localStorage.getItem(key));
 };
 
-const listenElements = () => {
-  document
-    .querySelector(".js-edit-title")
-    .addEventListener("keyup", ensureData);
-  document
-    .querySelector(".js-edit-subtitle")
-    .addEventListener("keyup", ensureData);
-  document
-    .querySelectorAll(".js-edit-task")
-    .forEach(item => item.addEventListener("blur", ensureData));
-  document
-    .querySelectorAll(".js-task-check")
-    .forEach(item => item.addEventListener("change", ensureData));
+const setToLocalStorage = data => {
+  const key = getQueryParam('ls', 'default');
+  localStorage.setItem(key, JSON.stringify(data));
 };
 
-// logo
+// helpers: window location
 
-const toggleEditModal = () => {
-  document.querySelector(".js-edit").classList.toggle("hidden");
+const getQueryParam = (key, defaultValue) => {
+  const params = window.location.search.substr(1).split('&');
+  for (let param of params) {
+    param = param.split('=');
+    if (param[0] === key) {
+      return param[1];
+    }
+  }
+  return defaultValue;
 };
-document.querySelector(".js-logo").addEventListener("click", toggleEditModal);
 
-paintData();
-listenElements();
+// helpers: elements
+
+const getElData = (selector, prop = 'innerHTML', element) => {
+  return (element || document).querySelector('.js-' + selector)[prop];
+};
+
+const setElData = (selector, value, prop = 'innerHTML') => {
+  document.querySelector('.js-' + selector)[prop] = value;
+};
+
+// helpers: time
+
+const getTime = () => {
+  const date = new Date();
+  const hour = date.getHours();
+  const minutes = date.getMinutes();
+  return `${hour}:${minutes < 10 ? '0' + minutes : minutes}`;
+};
+
+// start app
+
+startApp();
