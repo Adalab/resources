@@ -65,7 +65,7 @@ body {
 
 .subtitle {
   margin: 0 0 40px 50px;
-  line-height: 40px;
+  line-height: 60px;
   font-size: 70px;
   font-weight: normal;
   color: #54585b;
@@ -91,15 +91,17 @@ body {
 /* btns */
 
 .btns {
-  display: inline;
+  display: inline-flex;
   opacity: 0;
 }
 
+.starting-mode .btns,
 .btns:hover {
   opacity: 1;
 }
 
 .btn {
+  margin-right: 4px;
   padding: 3px 0 4px 0;
   width: 20px;
   border: none;

@@ -12,6 +12,12 @@ const startApp = () => {
   document.body.addEventListener('keyup', ensureData);
 };
 
+const removeStartingMode = () => {
+  setTimeout(() => {
+    document.querySelector('.starting-mode').classList.remove('starting-mode');
+  }, 1000);
+};
+
 // data
 
 const ensureData = ev => {
@@ -140,3 +146,4 @@ const getTime = () => {
 // start app
 
 startApp();
+removeStartingMode();
