@@ -5,7 +5,7 @@
 - Pulsa en el título para editarlo.
 - Pulsa en el subtítulo para editarlo.
 - Pulsa en el texto de la tarea para editarla.
-- Coloca el ratón 50px a la izquierda de los checkbox para añadir y borrar tareas.
+- Pulsa en el signo **más** y **menos** para añadir y borrar tareas.
 - Pulsa en el checkbox de la tarea para marcarla como realizada.
 - Pulsa en la hora para editarla.
 - Pulsa en la hora dos veces para poner la hora actual.
