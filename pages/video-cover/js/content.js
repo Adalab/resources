@@ -86,16 +86,18 @@ const ensureTime = ev => {
 // buttons
 
 const checkBtns = ev => {
-  const index = parseInt(ev.target.dataset.index);
-  const data = getCurrentData();
-  if (ev.target.classList.contains('js-remove')) {
-    data.tasks.splice(index, 1);
-    setToLocalStorage(data);
-    paintData(data);
-  } else if (ev.target.classList.contains('js-add')) {
-    data.tasks.splice(index + 1, 0, getDefaultData().tasks[0]);
-    setToLocalStorage(data);
-    paintData(data);
+  if (ev.type === 'click') {
+    const index = parseInt(ev.target.dataset.index);
+    const data = getCurrentData();
+    if (ev.target.classList.contains('js-remove')) {
+      data.tasks.splice(index, 1);
+      setToLocalStorage(data);
+      paintData(data);
+    } else if (ev.target.classList.contains('js-add')) {
+      data.tasks.splice(index + 1, 0, getDefaultData().tasks[0]);
+      setToLocalStorage(data);
+      paintData(data);
+    }
   }
 };
 
