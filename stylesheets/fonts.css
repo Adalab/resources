@@ -54,6 +54,10 @@
   font-weight: 700;
 }
 
+.text--decoration--none {
+  text-decoration: none;
+}
+
 .text--code {
   font-family: "Cutive Mono", monospace;
 }
