@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap');
 
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #54585a;
 }
 
@@ -58,8 +58,12 @@
   text-decoration: none;
 }
 
+.text--decoration--through {
+  text-decoration: line-through;
+}
+
 .text--code {
-  font-family: "Cutive Mono", monospace;
+  font-family: 'Cutive Mono', monospace;
 }
 
 .text--help {
