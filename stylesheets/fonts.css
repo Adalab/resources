@@ -3,7 +3,7 @@
 
 * {
   font-family: 'Roboto', sans-serif;
-  color: #54585a;
+  color: #54585b;
 }
 
 .title--big {
@@ -44,6 +44,22 @@
 
 .text--warning {
   color: #eeb211;
+}
+
+.text--primary {
+  color: #54585b;
+}
+
+.text--primary-light {
+  color: #b8b8b8;
+}
+
+.text--secondary {
+  color: #099d8d;
+}
+
+.text--secondary-light {
+  color: #14d9c4;
 }
 
 .text--normal {
