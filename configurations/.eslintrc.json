@@ -1,6 +1,5 @@
 {
   "env": {
-    "browser": true,
     "es6": true,
     "node": true
   },
@@ -8,7 +7,10 @@
   "rules": {
     "indent": [
       2,
-      2
+      2,
+      {
+        "SwitchCase": 1
+      }
     ],
     "quotes": [
       2,
