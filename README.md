@@ -10,7 +10,7 @@ Para uno de estos recursos en tu código usa `http://beta.adalab.es/resources/FO
 <link rel="stylesheet" href="http://beta.adalab.es/resources/stylesheets/all.css" />
 ```
 
-Página de componentes: http://beta.adalab.es/resources/stylesheets/all.css
+Página de componentes: http://beta.adalab.es/resources/stylesheets/
 
 #### Imágenes de Adalad
 
