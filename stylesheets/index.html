@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./all.css">
+    <title>Document</title>
+  </head>
+
+  <body class="page">
+
+    <div class="border--medium">
+      <h1 class="title--big">Badge:</h1>
+      <small class="badge">.badge</small>
+    </div>
+
+    <div class="border--medium">
+      <h1 class="title--big">Bordes:</h1>
+      <div class="border--medium">.border--medium</div>
+      <div class="border--medium border--error">.border--medium .border--error</div>
+      <div class="border--medium border--success">.border--medium .border--success</div>
+      <div class="border--medium border--warning">.border--medium .border--warning</div>
+    </div>
+
+    <div class="border--medium">
+      <h1 class="title--big">Cards:</h1>
+      <ul class="cards">
+        <li class="card">
+          <img class="card__img" src="//beta.adalab.es/resources/images/adalab-logo-128x128.png" alt="">
+          <h3 class="card__title">Título</h3>
+          <p class="card__description">.cards<br>.card<br>.card__img<br>.card__title<br>.card__description</p>
+          <button class="card__btn">Botón</button>
+        </li>
+        <li class="card">
+          <img class="card__img" src="//beta.adalab.es/resources/images/adalab-logo-128x128.png" alt="">
+          <h3 class="card__title">.Título</h3>
+          <p class="card__description">.cards<br>.card<br>.card__img<br>.card__title<br>.card__description</p>
+          <button class="card__btn">Botón</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="border--medium">
+      <h1 class="title--big">Cursor:</h1>
+      <p class="text cursor-pointer">.cursor-pointer</p>
+    </div>
+
+    <div class="border--medium">
+      <h1 class="title--big">Display:</h1>
+      <div class="text col2">
+        <p class="border--medium">Columna izquierda .col2</p>
+        <p class="border--medium">Columna derecha .col2</p>
+      </div>
+      <p class="border--medium display-block">.display-block</p>
+      <p class="border--medium display-inline-block">.display-inline-block</p>
+      <p class="border--medium display-inline-block">.display-inline-block</p>
+    </div>
+
+    <div class="border--medium">
+      <h1 class="title--big">Iconos:</h1>
+      <span class="icon fas fa-trash"></span>
+      <span class="form__btn fas fa-trash"></span>
+      <span class="fas fa-trash"></span>
+    </div>
+
+    <div class="border--medium">
+      <h1 class="title--big">Formularios:</h1>
+      <form>
+        <label class="form__label" for="name">Nombre</label>
+        <input class="form__input-text" type="text">
+        <input class="form__btn" type="submit">
+        .form__label .form__input-text .form__btn
+      </form>
+    </div>
+
+    <div class="border--medium">
+      <h1 class="title--big">Loading:</h1>
+      <div class="loading"></div>
+      <p class="text">.loading .loading--fixed</p>
+    </div>
+
+    <div class="border--medium">
+      <h1 class="title--big">Menú:</h1>
+      <nav>
+        <ul>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Link</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Link</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="text">.nav__item .nav__link</p>
+    </div>
+
+    <div class="border--medium">
+      <h1 class="title--big">Modal:</h1>
+      <button class="form__btn js-modal-btn">Abrir modal</button>
+      <div class="modal js-modal">
+        <div class="modal__dialog">
+          <div class="modal__content">
+            <header class="modal__header">
+              <h2 class="modal__title">Título de la modal</h2>
+              <span class="modal__close icon fas fa-times js-modal-btn"></span>
+            </header>
+            <section>
+              <h3>Cuerpo de la modal</h3>
+              <p>Descripción</p>
+            </section>
+            <header class="modal__footer">
+              <p class="text">Pie de la modal</p>
+            </header>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="border--medium">
+      <h1 class="title--big">Textos:</h1>
+      <p class="text">Texto .text</p>
+      <p class="text-align-right">Texto .text-align-right</p>
+      <p class="text--error">Texto .text--error</p>
+      <p class="text--success">Texto .text--success</p>
+      <p class="text--primary">Texto .text--primary</p>
+      <p class="text--primary-light">Texto .text--primary-light</p>
+      <p class="text--secondary">Texto .text--secondary</p>
+      <p class="text--normal">Texto .text--normal</p>
+      <p class="text--bold">Texto .text--bold</p>
+      <p class="text--decoration--none">Texto .text--decoration--none</p>
+      <p class="text--decoration--through">Texto .text--decoration--through</p>
+      <p class="text--code">Texto .text--code</p>
+      <p class="text--help">Texto .text--help</p>
+    </div>
+
+    <div class="border--medium">
+      <h1 class="title--big">Títulos:</h1>
+      <h1 class="title--big">Título: .title--big</h1>
+      <h1 class="title--medium">Título: .title--medium</h1>
+      <h1 class="title--small">Título: .title--small</h1>
+    </div>
+
+    <div class="border--medium">
+      <h1 class="title--big">Spacing: margin</h1>
+      <p class="border--medium m-0">.m-0</p>
+      <p class="border--medium mt-1">.mt-1</p>
+      <p class="border--medium mr-1">.mr-1</p>
+      <p class="border--medium ml-1">.ml-1</p>
+      <p class="border--medium mb-1">.mb-1</p>
+      <h1 class="title--big">Spacing: padding</h1>
+      <p class="border--medium pt-0">.pt-0</p>
+      <p class="border--medium pt-1">.pt-1</p>
+      <p class="border--medium pr-1">.pr-1</p>
+      <p class="border--medium pl-1">.pl-1</p>
+      <p class="border--medium pb-1">.pb-1</p>
+    </div>
+
+    <div class="border--medium">
+      <h1 class="title--big">Tabla</h1>
+      <table class="table">
+        <tbody>
+          <tr class="bold">
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+          </tr>
+          <tr>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+          </tr>
+          <tr>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script>
+      document.querySelectorAll('.js-modal-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelector('.js-modal').classList.toggle('modal__hidden')
+        });
+      });
+    </script>
+
+  </body>
+
+</html>
