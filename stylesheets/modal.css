@@ -27,6 +27,7 @@
 
 .modal__header {
   display: flex;
+  justify-content: space-between;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid #ccc;
