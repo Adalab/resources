@@ -9,11 +9,8 @@ const source = require('./calendars/input.json');
 // getters
 
 const getName = name => {
-  const nameTimes = getTimesFromName(name);
-  if (!_.isEmpty(nameTimes)) {
-    // remove text inside parentheses
-    name = name.replace(/ *\([^)]*\) */g, '');
-  }
+  // remove text inside parentheses
+  name = name.replace(/ *\([^)]*\) */g, '');
   // remove break lines and extra spaces
   return _.trim(name.replace(/\n/g, ' ').replace(/ {2}/g, ' '));
 };
@@ -24,6 +21,7 @@ const getDate = date => {
 };
 
 const getTime = (schedule, rowNumber, type, name) => {
+  name = removeFacilitator(name);
   const times = getTimesFromName(name);
   return _.isEmpty(times) ? schedule[rowNumber][type] : times[type];
 };
@@ -39,6 +37,15 @@ const getTimesFromName = name => {
     }
   }
   return {};
+};
+
+const getFacilitator = name => {
+  const bracketsFacilitator = name.match(/\(Facilitador: ([^)]+)\)/);
+  return _.has(bracketsFacilitator, '[1]') ? `Facilitador: ${bracketsFacilitator[1]}` : '';
+};
+
+const removeFacilitator = name => {
+  return name.replace(/ *\(Facilitador[^)]*\) */g, '');
 };
 
 const getTurn = (schedule, rowNumber) => {
@@ -80,7 +87,8 @@ const getEvents = schedule => {
           [config.headers.startDate]: getDate(date),
           [config.headers.startTime]: getTime(schedule, rowNumber, 'startTime', name),
           [config.headers.endDate]: getDate(date),
-          [config.headers.endTime]: getTime(schedule, rowNumber, 'endTime', name)
+          [config.headers.endTime]: getTime(schedule, rowNumber, 'endTime', name),
+          [config.headers.description]: getFacilitator(name)
         });
       }
     });
