@@ -7,7 +7,6 @@ const startApp = () => {
   data.tasks = data.tasks.length ? data.tasks : getDefaultData().tasks;
   setToLocalStorage(data);
   paintData(data);
-  document.body.addEventListener('dblclick', ensureTime);
   document.body.addEventListener('click', ensureData);
   document.body.addEventListener('keyup', ensureData);
 };
@@ -67,20 +66,14 @@ const paintData = data => {
     tasksCode += `    <input type="button" class="btn js-remove" data-index="${i}" value="-">`;
     tasksCode += `    <input type="button" class="btn js-add" data-index="${i}" value="+">`;
     tasksCode += `  </div>`;
-    tasksCode += `  <input class="checkbox js-checkbox" type="checkbox" ${data.tasks[i].checked ? 'checked' : ''}>`;
+    tasksCode += `  <input class="checkbox js-checkbox" type="checkbox" ${
+      data.tasks[i].checked ? 'checked' : ''
+    }>`;
     tasksCode += `  <label class="label js-label" contenteditable="true">${data.tasks[i].label}</label>`;
-    tasksCode += `  <span class="time js-time" contenteditable="true">${data.tasks[i].time}</span>`;
+    tasksCode += `  <span class="time" contenteditable="true">${data.tasks[i].time}</span>`;
     tasksCode += `</li>`;
   }
   setElData('tasks', tasksCode);
-};
-
-// time
-
-const ensureTime = ev => {
-  if (ev.target.classList.contains('js-time')) {
-    ev.target.innerHTML = getTime();
-  }
 };
 
 // buttons
