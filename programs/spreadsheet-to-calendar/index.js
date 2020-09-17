@@ -40,12 +40,12 @@ const getTimesFromName = name => {
 };
 
 const getFacilitator = name => {
-  const bracketsFacilitator = name.match(/\(Facilitador: ([^)]+)\)/);
-  return _.has(bracketsFacilitator, '[1]') ? `Facilitador: ${bracketsFacilitator[1]}` : '';
+  const bracketsFacilitator = name.match(/\(Facilitadora: ([^)]+)\)/);
+  return _.has(bracketsFacilitator, '[1]') ? `Facilitadora: ${bracketsFacilitator[1]}` : '';
 };
 
 const removeFacilitator = name => {
-  return name.replace(/ *\(Facilitador[^)]*\) */g, '');
+  return name.replace(/ *\(Facilitadora[^)]*\) */g, '');
 };
 
 const getTurn = (schedule, rowNumber) => {
