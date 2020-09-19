@@ -32,7 +32,7 @@ const getDefaultData = () => {
       {
         checked: false,
         label: 'Primera tarea',
-        time: getTime()
+        time: ''
       }
     ]
   };
@@ -70,7 +70,7 @@ const paintData = data => {
       data.tasks[i].checked ? 'checked' : ''
     }>`;
     tasksCode += `  <label class="label js-label" contenteditable="true">${data.tasks[i].label}</label>`;
-    tasksCode += `  <span class="time" contenteditable="true">${data.tasks[i].time}</span>`;
+    tasksCode += `  <span class="time js-time" contenteditable="true">${data.tasks[i].time}</span>`;
     tasksCode += `</li>`;
   }
   setElData('tasks', tasksCode);
@@ -127,15 +127,6 @@ const getElData = (selector, prop = 'innerHTML', element) => {
 
 const setElData = (selector, value, prop = 'innerHTML') => {
   document.querySelector('.js-' + selector)[prop] = value;
-};
-
-// helpers: time
-
-const getTime = () => {
-  const date = new Date();
-  const hour = date.getHours();
-  const minutes = date.getMinutes();
-  return `${hour}:${minutes < 10 ? '0' + minutes : minutes}`;
 };
 
 // start app
