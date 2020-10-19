@@ -19,6 +19,10 @@
   transition: 0.25s all;
 }
 
+.card.active {
+  border-color: #009925;
+}
+
 .card__img {
   width: 100%;
 }
