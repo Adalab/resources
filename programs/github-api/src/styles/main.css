@@ -1,0 +1,36 @@
+.fs-m {
+  font-size: 0.9rem;
+}
+
+.fs-s {
+  font-size: 0.7rem;
+}
+
+.issues__list {
+  max-width: 200px;
+  max-height: 30px;
+  overflow-y: auto;
+}
+
+.issue__icon {
+  width: 0.9rem;
+}
+
+.btn {
+  margin-right: 1px;
+  padding: 0.25rem;
+  font-size: 0;
+  line-height: 0;
+}
+
+.pagination .page-item {
+  width: 32px;
+}
+
+.badge-primary {
+  margin-left: 5px;
+}
+
+.repo-danger * {
+  color: white !important;
+}
