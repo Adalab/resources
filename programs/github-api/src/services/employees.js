@@ -7,7 +7,10 @@ const employees = [
   'migueldelmazo',
   'pixelmary',
   'dayanare',
-  'igarridomorillas'
+  'igarridomorillas',
+  'gponsu',
+  'adalab-tech',
+  'gorkamolero'
 ];
 
 const exportObject = {

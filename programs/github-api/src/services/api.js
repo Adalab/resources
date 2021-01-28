@@ -34,7 +34,8 @@ const parseRepos = repos => {
     description: repo.description,
     updated_at: repo.updated_at,
     created_at: repo.created_at,
-    private: repo.private
+    private: repo.private,
+    archived: repo.archived
   }));
 };
 
@@ -46,7 +47,10 @@ const getContributors = repo => {
 
 const setContributors = (repos, contributors) => {
   repos.forEach((repo, i) => {
-    repo.contributors = contributors[i].map(contributor => {
+    repo.contributors = contributors[i].filter(
+      contributor => contributor.login !== 'dependabot[bot]'
+    );
+    repo.contributors = repo.contributors.map(contributor => {
       return contributor.login;
     });
   });

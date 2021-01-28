@@ -1,7 +1,7 @@
 import Badge from 'react-bootstrap/Badge';
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
-import { IssueReopenedIcon } from '@primer/octicons-react';
+import { IssueReopenedIcon, TrashcanIcon } from '@primer/octicons-react';
 import issueTemplate from '../services/issue';
 import employees from '../services/employees';
 
@@ -15,7 +15,7 @@ function Repos(props) {
           <th>Acciones</th>
           <th>Repo</th>
           <th>Fecha</th>
-          <th>Colaboradores</th>
+          <th>Contribuidores</th>
           <th>Issues</th>
         </tr>
       </thead>
@@ -26,12 +26,16 @@ function Repos(props) {
     return props.repos.map(repo => {
       return (
         <tr key={repo.id} className={getRowClass(repo)}>
-          <td>{renderSendIssueButton(repo)}</td>
+          <td>
+            {renderSendIssueButton(repo)}
+            {renderDeleteButton(repo)}
+          </td>
           <td className="fs-m">
             <a href={repo.html_url} target="_blank" rel="noreferrer" className="font-weight-bold">
               {repo.name}
             </a>
             {renderPrivateLabel(repo)}
+            {renderArchivedLabel(repo)}
             <span className="fs-s text-secondary d-block">{repo.description}</span>
           </td>
           <td className="fs-s">
@@ -47,6 +51,10 @@ function Repos(props) {
 
   const renderPrivateLabel = repo => {
     return repo.private ? <Badge variant="primary">privado</Badge> : null;
+  };
+
+  const renderArchivedLabel = repo => {
+    return repo.archived ? <Badge variant="primary">archivado</Badge> : null;
   };
 
   const renderIssues = issues => {
@@ -84,6 +92,24 @@ function Repos(props) {
         <IssueReopenedIcon />
       </Button>
     );
+  };
+
+  const renderDeleteButton = repo => {
+    const daysAgo = 15 * 24 * 60 * 60 * 1000; // 15 days ago
+    const issue = repo.issues.find(issue => issue.title === issueTemplate.title);
+    const createdAt = issue ? new Date(issue.created_at) : new Date();
+    const timeAgo = new Date().getTime() - createdAt.getTime();
+
+    return timeAgo > daysAgo ? (
+      <Button
+        variant="danger"
+        size="sm"
+        onClick={() => props.sendIssue(repo)}
+        title="Crear issue en este repo"
+      >
+        <TrashcanIcon />
+      </Button>
+    ) : null;
   };
 
   const getRowClass = repo => {
