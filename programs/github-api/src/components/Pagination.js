@@ -12,7 +12,8 @@ function PaginationComponent(props) {
         number: page + 1
       });
     }
-    // render components
+
+    // render pages
     return pages.map(page => {
       return (
         <Pagination.Item
@@ -28,7 +29,7 @@ function PaginationComponent(props) {
   };
 
   return (
-    <Pagination size="sm" className="flex-wrap">
+    <Pagination size="sm" className="flex-wrap mt-2">
       {renderPageButtons()}
     </Pagination>
   );

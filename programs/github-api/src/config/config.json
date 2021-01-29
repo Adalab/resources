@@ -1,0 +1,20 @@
+{
+  "apiBaseUrl": "https://api.github.com/",
+  "apiPageSize": 30,
+  "apiCallsDelay": 10000,
+  "deleteButtonTimeAgo": 1296000000,
+  "employees": [
+    "admin",
+    "guerrero",
+    "gootyfer",
+    "oneeyedman",
+    "nasivuela",
+    "migueldelmazo",
+    "pixelmary",
+    "dayanare",
+    "igarridomorillas",
+    "gponsu",
+    "adalab-tech",
+    "gorkamolero"
+  ]
+}

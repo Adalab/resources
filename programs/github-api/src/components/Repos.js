@@ -2,63 +2,119 @@ import Badge from 'react-bootstrap/Badge';
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import { IssueReopenedIcon, TrashcanIcon } from '@primer/octicons-react';
+import config from '../config/config.json';
 import issueTemplate from '../services/issue';
-import employees from '../services/employees';
-
 import date from '../utils/date';
+import ReposHeader from './ReposHeader';
 
 function Repos(props) {
-  const renderTableHeader = () => {
-    return (
-      <thead className="fs-m">
-        <tr>
-          <th>Acciones</th>
-          <th>Repo</th>
-          <th>Fecha</th>
-          <th>Contribuidores</th>
-          <th>Issues</th>
-        </tr>
-      </thead>
-    );
-  };
+  // render repo
 
-  const renderTableRows = () => {
+  const renderRepo = () => {
     return props.repos.map(repo => {
       return (
-        <tr key={repo.id} className={getRowClass(repo)}>
-          <td>
-            {renderSendIssueButton(repo)}
-            {renderDeleteButton(repo)}
-          </td>
-          <td className="fs-m">
-            <a href={repo.html_url} target="_blank" rel="noreferrer" className="font-weight-bold">
-              {repo.name}
-            </a>
-            {renderPrivateLabel(repo)}
-            {renderArchivedLabel(repo)}
-            <span className="fs-s text-secondary d-block">{repo.description}</span>
-          </td>
-          <td className="fs-s">
-            <span className="d-block">{date.format(repo.created_at)}</span>
-            <span>{date.format(repo.updated_at)}</span>
-          </td>
-          <td className="fs-s">{repo.contributors.join(', ')}</td>
-          <td className="fs-s">{renderIssues(repo.issues)}</td>
+        <tr key={repo.id}>
+          {renderRepoActions(repo)}
+          {renderRepoTitle(repo)}
+          {renderRepoDates(repo)}
+          {renderRepoContributors(repo)}
+          {renderRepoIssues(repo)}
         </tr>
       );
     });
   };
 
-  const renderPrivateLabel = repo => {
-    return repo.private ? <Badge variant="primary">privado</Badge> : null;
+  // render actions
+
+  const renderRepoActions = repo => {
+    return (
+      <td>
+        {renderSendIssueButton(repo)}
+        {renderDeleteButton(repo)}
+      </td>
+    );
   };
 
-  const renderArchivedLabel = repo => {
-    return repo.archived ? <Badge variant="primary">archivado</Badge> : null;
+  const renderSendIssueButton = repo => {
+    const issueSent = !!repo.issues.find(issue => issue.title === issueTemplate.title);
+    return issueSent || repo.contributors.length === 0 ? null : (
+      <Button
+        size="sm"
+        title="Crear issue en este repo"
+        variant="primary"
+        onClick={() => props.sendIssue(repo)}
+      >
+        <IssueReopenedIcon />
+      </Button>
+    );
   };
 
-  const renderIssues = issues => {
-    const htmlCode = issues.map((issue, i) => {
+  const renderDeleteButton = repo => {
+    const issue = repo.issues.find(issue => issue.title === issueTemplate.title);
+    const createdAt = issue ? new Date(issue.created_at) : new Date();
+    const timeAgo = new Date().getTime() - createdAt.getTime();
+    return timeAgo > config.deleteButtonTimeAgo ? (
+      <Button
+        size="sm"
+        title="Crear issue en este repo"
+        variant="danger"
+        onClick={() => props.sendIssue(repo)}
+      >
+        <TrashcanIcon />
+      </Button>
+    ) : null;
+  };
+
+  // render title
+
+  const renderRepoTitle = repo => {
+    const archivedLabel = repo.archived ? (
+      <Badge variant="warning" className="ml-1">
+        archivado
+      </Badge>
+    ) : null;
+    const privateLabel = repo.private ? (
+      <Badge variant="danger" className="ml-1">
+        privado
+      </Badge>
+    ) : null;
+    return (
+      <td className="fs-m">
+        <a href={repo.html_url} target="_blank" rel="noreferrer" className="font-weight-bold">
+          {repo.name}
+        </a>
+        {privateLabel}
+        {archivedLabel}
+        <span className="fs-s text-secondary d-block">{repo.description}</span>
+      </td>
+    );
+  };
+
+  // render dates
+
+  const renderRepoDates = repo => {
+    return (
+      <td className="fs-s">
+        <span className="d-block">{date.format(repo.created_at)}</span>
+        <span>{date.format(repo.updated_at)}</span>
+      </td>
+    );
+  };
+
+  // render contributors
+
+  const renderRepoContributors = repo => {
+    const isEmployee = repo.contributors.find(contributor =>
+      config.employees.includes(contributor)
+    );
+    const className = repo.private || isEmployee ? 'fs-s bg-warning' : 'fs-s';
+    return <td className={className}>{repo.contributors.join(', ')}</td>;
+  };
+
+  // render issues
+
+  const renderRepoIssues = repo => {
+    const lis = repo.issues.map((issue, i) => {
       return (
         <li key={i} className={issue.state === 'open' ? '' : 'text-danger'}>
           <span className="font-weight-bold">
@@ -77,57 +133,18 @@ function Repos(props) {
         </li>
       );
     });
-    return <ul className="m-0 p-0 list-unstyled issues__list">{htmlCode}</ul>;
-  };
-
-  const renderSendIssueButton = repo => {
-    const issueSent = !!repo.issues.find(issue => issue.title === issueTemplate.title);
-    return issueSent || repo.contributors.length === 0 ? null : (
-      <Button
-        variant="primary"
-        size="sm"
-        onClick={() => props.sendIssue(repo)}
-        title="Crear issue en este repo"
-      >
-        <IssueReopenedIcon />
-      </Button>
+    return (
+      <td className="fs-s">
+        <ul className="m-0 p-0 list-unstyled issues__list">{lis}</ul>
+      </td>
     );
-  };
-
-  const renderDeleteButton = repo => {
-    const daysAgo = 15 * 24 * 60 * 60 * 1000; // 15 days ago
-    const issue = repo.issues.find(issue => issue.title === issueTemplate.title);
-    const createdAt = issue ? new Date(issue.created_at) : new Date();
-    const timeAgo = new Date().getTime() - createdAt.getTime();
-
-    return timeAgo > daysAgo ? (
-      <Button
-        variant="danger"
-        size="sm"
-        onClick={() => props.sendIssue(repo)}
-        title="Crear issue en este repo"
-      >
-        <TrashcanIcon />
-      </Button>
-    ) : null;
-  };
-
-  const getRowClass = repo => {
-    const isEmployee = repo.contributors.find(contributor =>
-      employees.employees.includes(contributor)
-    );
-    if (repo.private || isEmployee) {
-      return 'repo-danger bg-danger';
-    } else {
-      return '';
-    }
   };
 
   return (
-    <div className="border">
-      <Table striped hover size="sm">
-        {renderTableHeader()}
-        <tbody>{renderTableRows()}</tbody>
+    <div className="border bg-white">
+      <Table hover size="sm">
+        <ReposHeader />
+        <tbody>{renderRepo()}</tbody>
       </Table>
     </div>
   );

@@ -26,11 +26,3 @@
 .pagination .page-item {
   width: 32px;
 }
-
-.badge-primary {
-  margin-left: 5px;
-}
-
-.repo-danger * {
-  color: white !important;
-}

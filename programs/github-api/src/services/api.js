@@ -1,5 +1,6 @@
+import config from '../config/config';
 import issueTemplate from './issue';
-import gitHubSecrets from '../secrets/github-secrets.json';
+import ls from './ls';
 
 // user
 
@@ -97,13 +98,11 @@ const changeContributorsPerms = repo => {
 
 // helpers
 
-const apiBaseUrl = 'https://api.github.com/';
-
 const call = (path, method, query, body) => {
-  return fetch(`${apiBaseUrl}${path}${queryObjToString(query)}`, {
+  return fetch(`${config.apiBaseUrl}${path}${queryObjToString(query)}`, {
     method: (method || 'GET').toUpperCase(),
     headers: {
-      authorization: `token ${gitHubSecrets.token}`,
+      authorization: `token ${ls.getToken()}`,
       'Content-Type': 'application/json'
     },
     body: body ? JSON.stringify(body) : undefined

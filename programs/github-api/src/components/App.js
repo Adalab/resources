@@ -2,65 +2,86 @@ import React, { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Repos from './Repos';
-import Pagination from './Pagination';
+import config from '../config/config';
 import api from '../services/api';
+import ls from '../services/ls';
+import GitHubToken from './GitHubToken';
+import Help from './Help';
 import Loading from './Loading';
-
-const pageSize = 30;
+import Pagination from './Pagination';
+import Repos from './Repos';
+import Title from './Title';
 
 function App() {
-  const [repos, setRepos] = useState([]);
-  const [user, setUser] = useState({});
-  const [page, setPage] = useState(0);
+  // state
+
+  const [currentPage, setCurrentPage] = useState(0);
   const [loading, setLoading] = useState(false);
+  const [repos, setRepos] = useState([]);
+  const [token, setToken] = useState(ls.getToken());
+  const [user, setUser] = useState({});
+
+  // effects
 
   useEffect(() => {
-    api.getUser(setUser);
-  }, []);
+    if (token) {
+      api.getUser(setUser);
+    }
+  }, [token]);
 
   useEffect(() => {
-    setLoading(true);
-    setRepos([]);
-    api.getRepos(page).then(repos => {
-      setRepos(repos);
-      setLoading(false);
-    });
-  }, [page]);
+    ls.setToken(token);
+  }, [token]);
+
+  useEffect(() => {
+    if (token) {
+      setLoading(true);
+      setRepos([]);
+      api.getRepos(currentPage).then(repos => {
+        setRepos(repos);
+        setLoading(false);
+      });
+    }
+  }, [token, currentPage]);
 
   // events
 
   const sendIssue = repo => {
+    // remove this issue repo
     const nextRepos = repos.filter(repoItem => repoItem.name !== repo.name);
     setRepos(nextRepos);
+    // send issue and change contributors permissions
     setTimeout(() => {
       api.sendIssue(repo);
       api.changeContributorsPerms(repo);
-    }, 10000);
+    }, config.apiCallsDelay);
   };
 
   return (
     <Container fluid>
-      <Row>
-        <Col md="11">
-          <h1 className="h4">
-            Gestor de repositorios de Adalab
-            <span className="text-secondary"> ({user.public_repos} repos)</span>
-          </h1>
+      <Row className="mt-2">
+        <Col md="8">
+          <Title reposCounter={user.public_repos} />
         </Col>
-        <Col md="1" className="text-right">
+        <Col md="4" className="text-right">
           <Loading loading={loading} />
+          <GitHubToken token={token} setToken={setToken} />
         </Col>
       </Row>
       <Row>
         <Col>
           <Repos repos={repos} sendIssue={sendIssue} />
           <Pagination
-            page={page}
+            page={currentPage}
+            pageSize={config.apiPageSize}
             totalItems={user.public_repos}
-            pageSize={pageSize}
-            handlePage={setPage}
+            handlePage={setCurrentPage}
           />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <Help />
         </Col>
       </Row>
     </Container>
