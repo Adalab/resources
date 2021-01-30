@@ -15,4 +15,4 @@
 
 ## Cómo ver el proyecto en GitHub Pages
 
-1. Entra en https://beta.adalab.es/resources/programs/github-repos-manager
+1. Entra en https://beta.adalab.es/resources/programs/github-repos-manager/docs
