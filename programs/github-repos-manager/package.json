@@ -2,6 +2,7 @@
   "name": "github-api",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "@primer/octicons-react": "^11.2.0",
     "@testing-library/jest-dom": "^5.11.9",
