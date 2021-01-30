@@ -15,10 +15,10 @@ import Title from './Title';
 function App() {
   // state
 
-  const [currentPage, setCurrentPage] = useState(0);
+  const [currentPage, setCurrentPage] = useState(ls.get('currentPage') || 0);
   const [loading, setLoading] = useState(false);
   const [repos, setRepos] = useState([]);
-  const [token, setToken] = useState(ls.getToken());
+  const [token, setToken] = useState(ls.get('token'));
   const [user, setUser] = useState({});
 
   // effects
@@ -30,8 +30,12 @@ function App() {
   }, [token]);
 
   useEffect(() => {
-    ls.setToken(token);
+    ls.set('token', token);
   }, [token]);
+
+  useEffect(() => {
+    ls.set('currentPage', currentPage);
+  }, [currentPage]);
 
   useEffect(() => {
     if (token) {

@@ -19,7 +19,7 @@ function PaginationComponent(props) {
         <Pagination.Item
           key={page.page}
           className="mb-1"
-          active={props.page === page.page}
+          active={parseInt(props.page) === page.page}
           onClick={() => props.handlePage(page.page)}
         >
           {page.number}

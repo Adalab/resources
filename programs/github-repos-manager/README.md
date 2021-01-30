@@ -12,7 +12,6 @@
 
 1. Ejecuta `npm run build`
 
-
 ## Cómo ver el proyecto en GitHub Pages
 
 1. Entra en https://beta.adalab.es/resources/programs/github-repos-manager/docs

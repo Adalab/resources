@@ -11,11 +11,12 @@ function Repos(props) {
   // render repo
 
   const renderRepo = () => {
-    return props.repos.map(repo => {
+    return props.repos.map((repo, index) => {
       return (
         <tr key={repo.id}>
+          {renderRepoIndex(index)}
           {renderRepoActions(repo)}
-          {renderRepoTitle(repo)}
+          {renderRepoTitle(repo, index)}
           {renderRepoDates(repo)}
           {renderRepoContributors(repo)}
           {renderRepoIssues(repo)}
@@ -24,9 +25,18 @@ function Repos(props) {
     });
   };
 
+  // render index
+  const renderRepoIndex = index => {
+    return (
+      <td>
+        <span className="fs-m">{index}</span>
+      </td>
+    );
+  };
+
   // render actions
 
-  const renderRepoActions = repo => {
+  const renderRepoActions = (repo, index) => {
     return (
       <td>
         {renderSendIssueButton(repo)}
@@ -107,7 +117,7 @@ function Repos(props) {
     const contributors = repo.contributors.map(contributor => {
       const badgeVariant = config.employees.includes(contributor) ? 'danger' : 'primary';
       return (
-        <Badge variant={badgeVariant} className="ml-1 fs-s">
+        <Badge key={contributor} variant={badgeVariant} className="ml-1 fs-s">
           <a
             href={`//github.com/${contributor}`}
             className="text-white"

@@ -81,10 +81,20 @@ const setIssues = (repos, issues) => {
 };
 
 const sendIssue = repo => {
+  repo.contributors = repo.contributors.filter(
+    contributor => !config.employees.includes(contributor)
+  );
   call(`repos/Adalab/${repo.name}/issues`, 'POST', undefined, {
     title: issueTemplate.title,
     body: issueTemplate.render(repo),
     assignees: repo.contributors
+  }).then(response => {
+    if (response.errors) {
+      repo.contributors = repo.contributors.filter(
+        contributor => contributor !== response.errors[0].value
+      );
+      sendIssue(repo);
+    }
   });
 };
 
@@ -102,7 +112,7 @@ const call = (path, method, query, body) => {
   return fetch(`${config.apiBaseUrl}${path}${queryObjToString(query)}`, {
     method: (method || 'GET').toUpperCase(),
     headers: {
-      authorization: `token ${ls.getToken()}`,
+      authorization: `token ${ls.get('token')}`,
       'Content-Type': 'application/json'
     },
     body: body ? JSON.stringify(body) : undefined

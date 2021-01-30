@@ -1,14 +1,14 @@
-const getToken = () => {
-  return localStorage.getItem('token') || '';
+const get = key => {
+  return localStorage.getItem(key) || '';
 };
 
-const setToken = token => {
-  localStorage.setItem('token', token);
+const set = (key, value) => {
+  localStorage.setItem(key, value);
 };
 
 const exportObject = {
-  getToken,
-  setToken
+  get,
+  set
 };
 
 export default exportObject;
