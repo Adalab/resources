@@ -104,11 +104,22 @@ function Repos(props) {
   // render contributors
 
   const renderRepoContributors = repo => {
-    const isEmployee = repo.contributors.find(contributor =>
-      config.employees.includes(contributor)
-    );
-    const className = repo.private || isEmployee ? 'fs-s bg-warning' : 'fs-s';
-    return <td className={className}>{repo.contributors.join(', ')}</td>;
+    const contributors = repo.contributors.map(contributor => {
+      const badgeVariant = config.employees.includes(contributor) ? 'danger' : 'primary';
+      return (
+        <Badge variant={badgeVariant} className="ml-1 fs-s">
+          <a
+            href={`//github.com/${contributor}`}
+            className="text-white"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {contributor}
+          </a>
+        </Badge>
+      );
+    });
+    return <td>{contributors}</td>;
   };
 
   // render issues

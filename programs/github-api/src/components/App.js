@@ -63,7 +63,7 @@ function App() {
         <Col md="8">
           <Title reposCounter={user.public_repos} />
         </Col>
-        <Col md="4" className="text-right">
+        <Col md="4" className="d-flex align-items-center justify-content-end mb-2">
           <Loading loading={loading} />
           <GitHubToken token={token} setToken={setToken} />
         </Col>

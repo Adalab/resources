@@ -8,12 +8,24 @@ function GitHubToken(props) {
   };
 
   return (
-    <InputGroup size="sm" className="d-inline-block w-75 ml-2">
+    <InputGroup size="sm" className="ml-2 token-input-group">
+      <InputGroup.Prepend>
+        <InputGroup.Text id="token">
+          <a
+            href="https://docs.github.com/es/github/authenticating-to-github/creating-a-personal-access-token"
+            title="Crear token de usuario de GitHub"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub token:
+          </a>
+        </InputGroup.Text>
+      </InputGroup.Prepend>
       <FormControl
+        className="token-form-control"
         placeholder="Introduce aquí tu GitHub user token"
-        className="w-100"
-        onChange={handleInput}
         value={props.token}
+        onChange={handleInput}
       />
     </InputGroup>
   );

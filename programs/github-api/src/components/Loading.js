@@ -6,7 +6,9 @@ function Loading(props) {
     <Spinner animation="grow" size="sm" variant="primary" className="d-inline-block">
       <span className="sr-only">Loading...</span>
     </Spinner>
-  ) : null;
+  ) : (
+    <span></span>
+  );
 }
 
 export default Loading;

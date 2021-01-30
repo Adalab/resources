@@ -1,9 +1,17 @@
-.fs-m {
-  font-size: 0.9rem;
+.token-form-control {
+  max-width: 15rem;
+}
+
+.token-input-group {
+  width: auto;
 }
 
 .fs-s {
   font-size: 0.7rem;
+}
+
+.fs-m {
+  font-size: 0.9rem;
 }
 
 .issues__list {
@@ -25,4 +33,5 @@
 
 .pagination .page-item {
   width: 32px;
+  text-align: center;
 }
