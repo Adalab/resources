@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && rm -rf docs/ && mv build docs && git add -A && git commit -m \"Build github repos manager\" && git push",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
