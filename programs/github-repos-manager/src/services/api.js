@@ -22,6 +22,7 @@ const getRepos = page => {
     .then(data => (repos = parseRepos(data)))
     .then(() => Promise.all(repos.map(getContributors)))
     .then(contributors => setContributors(repos, contributors))
+    .then(() => setAssignees(repos))
     .then(() => Promise.all(repos.map(getIssues)))
     .then(issues => setIssues(repos, issues))
     .then(() => repos);
@@ -48,12 +49,18 @@ const getContributors = repo => {
 
 const setContributors = (repos, contributors) => {
   repos.forEach((repo, i) => {
-    repo.contributors = contributors[i].filter(
-      contributor => contributor.login !== 'dependabot[bot]'
+    // get repo contributors
+    repo.contributors = contributors[i].map(contributor => contributor.login);
+    // remove black list contributors
+    repo.contributors = repo.contributors.filter(
+      contributor => !config.usersBlackList.includes(contributor)
     );
-    repo.contributors = repo.contributors.map(contributor => {
-      return contributor.login;
-    });
+  });
+};
+
+const setAssignees = repos => {
+  repos.forEach((repo, i) => {
+    repo.assignees = [...repo.contributors];
   });
 };
 
@@ -116,7 +123,13 @@ const call = (path, method, query, body) => {
       'Content-Type': 'application/json'
     },
     body: body ? JSON.stringify(body) : undefined
-  }).then(response => (response.status === 200 ? response.json() : []));
+  }).then(response => {
+    if (response.status === 200 || (response.status >= 400 && response.status < 500)) {
+      return response.json();
+    } else {
+      return [];
+    }
+  });
 };
 
 const queryObjToString = (query = {}) => {

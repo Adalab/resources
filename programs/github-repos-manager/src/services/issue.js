@@ -41,13 +41,13 @@ Gracias por ayudar a tener nuestro GitHub limpio y elegante.
 
 ![Refuerzo positivo :)](https://media.giphy.com/media/qixJFUXq1UNLa/giphy-downsized.gif)
 
-> Este mensaje es para [contributors]
+> Este mensaje es para [assignees]
 `;
 
 const render = repo => {
-  const contributorsList = repo.contributors.map(contributor => `@${contributor}`);
-  const contributorsText = contributorsList.join(' ');
-  return body.replace('[contributors]', contributorsText).replace('[repo_name]', repo.name);
+  const assigneesList = repo.assignees.map(contributor => `@${contributor}`);
+  const assigneesText = assigneesList.join(' ');
+  return body.replace('[assignees]', assigneesText).replace('[repo_name]', repo.name);
 };
 
 const exportObject = {
