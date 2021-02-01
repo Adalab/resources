@@ -16,5 +16,8 @@
     "gponsu",
     "adalab-tech",
     "gorkamolero"
+  ],
+  "usersBlackList": [
+    "dependabot[bot]"
   ]
 }
