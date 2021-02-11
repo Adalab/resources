@@ -2,11 +2,20 @@
 
 ## ¿Para qué es este programa?
 
-Para buscar en tu ordenador las carpetas `node_modules/`. Este programa las buscará todas y te dirá donde están.
-
-El objetivo es que puedas borrar las carpetas `node_modules/` que ya no usas para liberar espacio.
+Para buscar en tu ordenador los directorios `node_modules/` y borrarlos. Antes de borrar un directorio `node_modules/` el programa te preguntará si quieres borrarlo.
 
 ## ¿Cómo usar este programa?
 
-1. Pon el fichero `find-node-modules.js` en la carpeta superior donde quieras buscar.
-1. Ejecuta `node find-node-modules.js` en una terminal.
+Ejecuta `index.js` con la ruta donde quieras buscar, por ejemplo:
+
+```bash
+node index ./
+```
+
+```bash
+node index ./projects/
+```
+
+```bash
+node index ../../../
+```
