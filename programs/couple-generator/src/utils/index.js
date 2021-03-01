@@ -1,4 +1,5 @@
 import _ from 'lodash';
+import clipboard from './clipboard';
 import config from './config';
 import column from './column';
 import group from './group';
@@ -17,6 +18,7 @@ const init = data => {
 
 export default {
   init,
+  clipboard,
   config,
   column,
   group,

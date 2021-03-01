@@ -4,10 +4,19 @@
 
   .cell {
     padding: 0.18rem 0.3rem;
-    font-size: 10px;
+    font-size: 0.75rem;
     font-weight: normal;
 
+    &-teacher {
+      width: 5rem;
+    }
+
+    &-level {
+      width: 3rem;
+    }
+
     &-group {
+      width: 5rem;
       text-align: center;
     }
   }
@@ -15,9 +24,9 @@
   .thead {
     .cell {
       background: var(--primary);
-      min-width: 3rem;
       vertical-align: top;
       border-bottom: none;
+      font-weight: bold;
       color: white;
       transition: 0.2s ease background;
     }
@@ -43,6 +52,7 @@
 
   .select {
     cursor: pointer;
+    vertical-align: text-top;
     border: 1px solid #eee;
     border-radius: 4px;
     font-size: 0.6rem;

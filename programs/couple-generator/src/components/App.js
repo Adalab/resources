@@ -15,7 +15,6 @@ console.clear();
 const App = () => {
   const [data, setData] = useState(utils.init(initialData));
   const [order, setOrder] = useState('teacherId');
-  const [showExportView, setShowExportView] = useState(false);
   console.log(data);
 
   const handleData = (action, newData) => {
@@ -44,19 +43,13 @@ const App = () => {
   };
 
   const renderTableBody = () => {
-    const students = _.orderBy(data.students, [order, 'level', 'name']);
+    data.students = _.orderBy(data.students, [order, 'level', 'name']);
     utils.repetitions.setRepetitions(data);
-    return students.map(student => {
+    return data.students.map(student => {
       return (
         <tr key={student.name} className={renderRowClassName(student)}>
           <CellTeacher student={student} />
-          <CellLevel
-            student={student}
-            data={data}
-            value={student.level}
-            showExportView={showExportView}
-            handleData={handleData}
-          />
+          <CellLevel student={student} data={data} value={student.level} handleData={handleData} />
           <CellStudent student={student} data={data} handleData={handleData} />
           {renderStudentCells(student, 'team')}
           {renderStudentCells(student, 'pair')}
@@ -79,7 +72,6 @@ const App = () => {
           groupName={group.name}
           student={student}
           value={student[group.id]}
-          showExportView={showExportView}
           handleData={handleData}
         />
       );
@@ -87,13 +79,13 @@ const App = () => {
   };
 
   return (
-    <div className={showExportView ? 'export-view' : ''}>
-      <Header showExportView={showExportView} toggleShowExportView={setShowExportView} />
+    <>
+      <Header copyToClipboard={type => utils.clipboard.copy(data, type)} />
       <table className="table">
-        <TableHeader data={data} showExportView={showExportView} handleData={handleData} />
-        {renderTableBody()}
+        <TableHeader data={data} handleData={handleData} />
+        <tbody className="tbody">{renderTableBody()}</tbody>
       </table>
-    </div>
+    </>
   );
 };
 

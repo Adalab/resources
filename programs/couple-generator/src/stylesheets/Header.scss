@@ -5,26 +5,22 @@
     font-size: 1.3rem;
     font-weight: normal;
   }
-}
 
-.export-view {
-  .btn-icon,
-  .btn-icons-group,
-  .cell-level,
-  .title {
-    display: none;
+  .btn-icon {
+    margin-left: 0.5rem;
+    padding: 4px 4px 3px 4px;
+    font-size: 0.8rem;
   }
 
-  .table {
-    .thead .cell,
-    .thead .cell * {
-      background: var(--secondary);
-      font-weight: bold;
-      color: black;
-    }
+  .copied-to-clipboard {
+    display: none;
+    font-size: 0.8rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 
-    .tbody .cell {
-      background: white;
+    &.show {
+      display: inline-block;
+      opacity: 1;
     }
   }
 }

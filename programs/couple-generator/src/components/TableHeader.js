@@ -82,12 +82,14 @@ export default props => {
   };
 
   return (
-    <tr>
-      {renderTeacherCell()}
-      {renderLevelCell()}
-      {renderStudentCell()}
-      {renderGroupCells('team', 'Equipo del módulo ')}
-      {renderGroupCells('pair', 'Pareja del sprint ')}
-    </tr>
+    <thead className="thead">
+      <tr>
+        {renderTeacherCell()}
+        {renderLevelCell()}
+        {renderStudentCell()}
+        {renderGroupCells('team', 'Equipo del módulo ')}
+        {renderGroupCells('pair', 'Pareja del sprint ')}
+      </tr>
+    </thead>
   );
 };
