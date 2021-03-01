@@ -1,0 +1,16 @@
+.btn-icon {
+  cursor: pointer;
+  padding: 4px 4px 2px 4px;
+  background: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 3px;
+  font-size: 0.7rem;
+  font-weight: normal;
+  color: white;
+  transition: 0.3s all;
+
+  &:hover {
+    color: var(--primary);
+    background: white;
+  }
+}

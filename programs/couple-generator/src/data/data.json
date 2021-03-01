@@ -1,0 +1,152 @@
+{
+  "numberOfPeopleInAPair": 2,
+  "numberOfPeopleInATeam": 4,
+  "pairModules": 5,
+  "teamModules": 3,
+  "students": [
+    {
+      "name": "Amanda García García",
+      "teacher": "Dayana"
+    },
+    {
+      "name": "Cecilia Tallo Criado",
+      "teacher": "Dayana"
+    },
+    {
+      "name": "Ana Apezteguía Martínez",
+      "teacher": "Dayana"
+    },
+    {
+      "name": "Ana Fernández Ruiz",
+      "teacher": "Dayana"
+    },
+    {
+      "name": "Valle Tendero Sánchez",
+      "teacher": "Dayana"
+    },
+    {
+      "name": "Elisa Alcocer Miranda",
+      "teacher": "Dayana"
+    },
+    {
+      "name": "Marta Cano Palacio",
+      "teacher": "Dayana"
+    },
+    {
+      "name": "Victoria Kovaleva",
+      "teacher": "Dayana"
+    },
+    {
+      "name": "Marina Delgado",
+      "teacher": "Dayana"
+    },
+    {
+      "name": "Eugenia Dallasta",
+      "teacher": "Dayana"
+    },
+    {
+      "name": "Berta Pluma Sanjurjo",
+      "teacher": "Dayana"
+    },
+    {
+      "name": "Paula Páez Soto",
+      "teacher": "Dayana"
+    },
+    {
+      "name": "Adriana Del Teso Serrano",
+      "teacher": "Iván"
+    },
+    {
+      "name": "Ana Diz Bermejo",
+      "teacher": "Iván"
+    },
+    {
+      "name": "Carolina Castaño Castillo",
+      "teacher": "Iván"
+    },
+    {
+      "name": "Cristina Blanco",
+      "teacher": "Iván"
+    },
+    {
+      "name": "Cristina González Ruiz",
+      "teacher": "Iván"
+    },
+    {
+      "name": "Esther Lopez Cordoncillo",
+      "teacher": "Iván"
+    },
+    {
+      "name": "Irene Mañas Alcaide",
+      "teacher": "Iván"
+    },
+    {
+      "name": "Marcjanna Stopinska",
+      "teacher": "Iván"
+    },
+    {
+      "name": "Marianne Orts Marhuenda",
+      "teacher": "Iván"
+    },
+    {
+      "name": "Nadia Murias Lopez",
+      "teacher": "Iván"
+    },
+    {
+      "name": "Natalia Migallón Fernández",
+      "teacher": "Iván"
+    },
+    {
+      "name": "Sara Martínez Aragón",
+      "teacher": "Iván"
+    },
+    {
+      "name": "Carmen Ramos Martinez",
+      "teacher": "Miguel"
+    },
+    {
+      "name": "Laura Portillo Rodríguez",
+      "teacher": "Miguel"
+    },
+    {
+      "name": "Sagrario Mielgo",
+      "teacher": "Miguel"
+    },
+    {
+      "name": "Mercedes Fe Barranco",
+      "teacher": "Miguel"
+    },
+    {
+      "name": "Maria Angeles Virumbrales",
+      "teacher": "Miguel"
+    },
+    {
+      "name": "Dandara Almeida",
+      "teacher": "Miguel"
+    },
+    {
+      "name": "María Jesús Fernández",
+      "teacher": "Miguel"
+    },
+    {
+      "name": "Liliana Mendoza Alvear",
+      "teacher": "Miguel"
+    },
+    {
+      "name": "Marta García Garrido",
+      "teacher": "Miguel"
+    },
+    {
+      "name": "María Teresa Martinez Fernandez",
+      "teacher": "Miguel"
+    },
+    {
+      "name": "Marina Fernández Pastor",
+      "teacher": "Miguel"
+    },
+    {
+      "name": "Camilla Bachna",
+      "teacher": "Miguel"
+    }
+  ]
+}

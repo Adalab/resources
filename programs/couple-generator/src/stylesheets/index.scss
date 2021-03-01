@@ -1,0 +1,11 @@
+:root {
+  --primary: #007bff;
+  --secondary: #14d9c4;
+}
+
+.page {
+  margin: 1rem auto 2rem auto;
+  width: calc(100vw - 4rem);
+  max-width: 1200px;
+  background: #f8f8f8;
+}

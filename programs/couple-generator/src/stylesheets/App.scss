@@ -1,0 +1,50 @@
+.table {
+  border: 1px solid #eee;
+  background: white;
+
+  .cell {
+    padding: 0.18rem 0.3rem;
+    font-size: 10px;
+    font-weight: normal;
+
+    &-group {
+      text-align: center;
+    }
+  }
+
+  .thead {
+    .cell {
+      background: var(--primary);
+      min-width: 3rem;
+      vertical-align: top;
+      border-bottom: none;
+      color: white;
+      transition: 0.2s ease background;
+    }
+  }
+
+  .tbody {
+    .cell {
+      color: black;
+    }
+
+    .table-row:hover {
+      background: #ccc;
+    }
+
+    .row-odd {
+      background: #eee;
+    }
+
+    .row-even {
+      background: white;
+    }
+  }
+
+  .select {
+    cursor: pointer;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    font-size: 0.6rem;
+  }
+}

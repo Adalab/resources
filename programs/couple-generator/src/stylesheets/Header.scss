@@ -1,0 +1,30 @@
+.header {
+  user-select: none;
+
+  .title {
+    font-size: 1.3rem;
+    font-weight: normal;
+  }
+}
+
+.export-view {
+  .btn-icon,
+  .btn-icons-group,
+  .cell-level,
+  .title {
+    display: none;
+  }
+
+  .table {
+    .thead .cell,
+    .thead .cell * {
+      background: var(--secondary);
+      font-weight: bold;
+      color: black;
+    }
+
+    .tbody .cell {
+      background: white;
+    }
+  }
+}
