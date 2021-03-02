@@ -6,6 +6,7 @@
     padding: 0.18rem 0.3rem;
     font-size: 0.75rem;
     font-weight: normal;
+    vertical-align: middle;
 
     &-teacher {
       width: 5rem;
@@ -13,22 +14,12 @@
 
     &-level {
       width: 3rem;
+      text-align: center;
     }
 
     &-group {
       width: 5rem;
       text-align: center;
-    }
-  }
-
-  .thead {
-    .cell {
-      background: var(--primary);
-      vertical-align: top;
-      border-bottom: none;
-      font-weight: bold;
-      color: white;
-      transition: 0.2s ease background;
     }
   }
 

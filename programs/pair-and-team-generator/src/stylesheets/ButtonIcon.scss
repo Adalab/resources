@@ -1,16 +1,36 @@
 .btn-icon {
   cursor: pointer;
-  padding: 4px;
+  width: 1.4rem;
+  height: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: var(--primary);
   border: 1px solid var(--primary);
   border-radius: 3px;
-  font-size: 0.7rem;
   font-weight: normal;
   color: white;
   transition: 0.3s all;
 
+  .svg {
+    fill: white;
+  }
+
   &:hover {
     color: var(--primary);
     background: white;
+
+    .svg {
+      fill: var(--primary);
+    }
+  }
+
+  &.active,
+  &.active:hover {
+    background: var(--success);
+    border-color: var(--success);
+    .svg {
+      fill: white;
+    }
   }
 }

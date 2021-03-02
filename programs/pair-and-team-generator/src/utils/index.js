@@ -2,6 +2,7 @@ import _ from 'lodash';
 import clipboard from './clipboard';
 import config from './config';
 import column from './column';
+import download from './download';
 import group from './group';
 import level from './level';
 import repetitions from './repetitions';
@@ -21,6 +22,7 @@ export default {
   clipboard,
   config,
   column,
+  download,
   group,
   level,
   repetitions,

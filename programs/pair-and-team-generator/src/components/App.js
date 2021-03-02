@@ -38,6 +38,9 @@ const App = () => {
       case 'toggleBlockColumn':
         utils.column.toggleBlock(result, newData);
         break;
+      case 'downloadGroup':
+        utils.download.downloadGroup(result, newData);
+        break;
     }
     setData(result);
   };

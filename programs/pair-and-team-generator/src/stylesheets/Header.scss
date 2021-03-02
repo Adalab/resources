@@ -1,26 +1,19 @@
 .header {
   user-select: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
   .title {
     font-size: 1.3rem;
     font-weight: normal;
   }
 
-  .btn-icon {
-    margin-left: 0.5rem;
-    padding: 4px 4px 3px 4px;
-    font-size: 0.8rem;
-  }
+  .btn-icons-group {
+    display: flex;
 
-  .copied-to-clipboard {
-    display: none;
-    font-size: 0.8rem;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-
-    &.show {
-      display: inline-block;
-      opacity: 1;
+    .btn-icon {
+      margin-left: 0.5rem;
     }
   }
 }

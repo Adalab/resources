@@ -32,7 +32,7 @@ export default props => {
 
   const renderTdClassName = () => {
     const isRepeated = props.student.repetitions[props.groupId];
-    return isRepeated ? 'cell cell-group bg-danger' : 'cell cell-group';
+    return isRepeated ? 'cell cell-group bg-warning' : 'cell cell-group';
   };
 
   return (

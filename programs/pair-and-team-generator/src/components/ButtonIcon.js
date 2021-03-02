@@ -1,10 +1,12 @@
+import octicons from '@primer/octicons';
 import '../stylesheets/ButtonIcon.scss';
 
 export default props => {
   return (
     <i
+      className={props.active ? 'btn-icon active' : 'btn-icon'}
       title={props.title}
-      className={`btn-icon fa fa-${props.icon} fa-2x`}
+      dangerouslySetInnerHTML={{ __html: octicons[props.icon].toSVG({ class: 'svg' }) }}
       onClick={props.onClick}
     />
   );

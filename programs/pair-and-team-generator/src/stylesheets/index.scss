@@ -1,9 +1,11 @@
 :root {
   --primary: #007bff;
+  --success: #28a745;
 }
 
 .page {
   margin: 1rem auto;
-  width: 1000px;
+  width: 1200px;
+  max-width: calc(100% - 4rem);
   background: #f8f8f8;
 }
