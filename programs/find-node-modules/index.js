@@ -1,7 +1,8 @@
 const { spawnSync } = require('child_process');
 const fs = require('fs');
+const path = require('path');
 const readline = require('readline');
-const path = process.argv[2] || '.';
+const currentPath = process.argv[2] || '.';
 
 const consoleColors = {
   delete: '\x1b[32m',
@@ -45,7 +46,7 @@ const showNextDeleteMessage = () => {
   } else {
     console.log(
       consoleColors.delete,
-      `Delete ${paths[pathIndex]}?`,
+      `Do you want to delete ${path.join(__dirname, paths[pathIndex])}?`,
       consoleColors.keys,
       '[enter/y/n]'
     );
@@ -56,7 +57,7 @@ listenKeypressEvents([
   {
     keys: ['y', 'Y', 'return'],
     callback: () => {
-      console.log(consoleColors.feedback, `Deleting ${paths[pathIndex]}`);
+      console.log(consoleColors.feedback, `Deleting ${path.join(__dirname, paths[pathIndex])}`);
       spawnSync('rm', ['-rf', paths[pathIndex]]);
       showNextDeleteMessage();
     }
@@ -75,10 +76,10 @@ listenKeypressEvents([
   }
 ]);
 
-console.log(`Searching in ${path}`);
+console.log(`Searching node_modules in ${path.join(__dirname, currentPath)}`);
 
 let pathIndex = -1;
-const paths = findFolderRecursive(path);
+const paths = findFolderRecursive(currentPath);
 
 console.log(`Found ${paths.length} node_modules/ directories`);
 
