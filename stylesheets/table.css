@@ -10,7 +10,8 @@
   font-size: 14px;
 }
 
-.table tr.bold td {
+.table tr.bold td,
+.table tr th {
   background: #eee;
   font-weight: bold;
 }
