@@ -1,0 +1,72 @@
+[
+  {
+    "id": "d7e4fcf9-9cd0-4a0c-be8d-8bd03a096d5e",
+    "title": "El diario de Noa",
+    "year": "2004",
+    "duration": 123,
+    "categories": ["Drama", "Romántico"],
+    "age": "T.P.",
+    "language": "en",
+    "score": 7.8,
+    "synopsis": "Un joven pobre pero apasionado se enamora de una joven rica, dándole una sensación de libertad, pero pronto se separan debido a sus diferencias sociales.",
+    "director": "Nick Cassavetes",
+    "starring": ["Gena Rowlands", "James Garner", "Rachel McAdams", "Ryan Gosling"],
+    "incoming": "$81.00M"
+  },
+  {
+    "id": "2b66e1ae-606e-4cce-a896-e82e6f05677e",
+    "title": "Orgullo y prejuicio",
+    "year": "2005",
+    "duration": 129,
+    "categories": ["Drama", "Romántico"],
+    "age": "T.P.",
+    "language": "en",
+    "score": 7.8,
+    "synopsis": "Saltan chispas cuando la enérgica Elizabeth Bennet conoce al soltero, rico y orgulloso Sr. Darcy. Pero el Sr. Darcy, a regañadientes, se enamora de una mujer por debajo de su clase. ¿Puede cada uno superar su propio orgullo y prejuicio?",
+    "director": "Joe Wright",
+    "starring": ["Keira Knightley", "Matthew Macfadyen", "Brenda Blethyn", "Donald Sutherland"],
+    "incoming": "$38.41M"
+  },
+  {
+    "id": "91611b17-a466-4948-b3b1-4b17158c0521",
+    "title": "Lo que el viento se llevó",
+    "year": "1939",
+    "duration": 238,
+    "categories": ["Drama", "Historia"],
+    "age": "T.P.",
+    "language": "en",
+    "score": 8.1,
+    "synopsis": "La hija manipuladora del propietario de una plantación de Georgia lleva a cabo un romance turbulento con un especulador pícaro durante los períodos de la Guerra Civil Estadounidense y la Reconstrucción.",
+    "director": "Victor Fleming",
+    "starring": ["Clark Gable", "Vivien Leigh", "Thomas Mitchell", "Barbara O'Neil"],
+    "incoming": "$198.68M"
+  },
+  {
+    "id": "320776ea-56ba-43df-9db7-ae293643c2b7",
+    "title": "Historia de amor (Love story)",
+    "year": "1970",
+    "duration": 100,
+    "categories": ["Drama", "Romántico"],
+    "age": "+12",
+    "language": "en",
+    "score": 6.9,
+    "synopsis": "Un chico y una chica de diferentes orígenes se enamoran independientemente de su educación, y luego ocurre una tragedia.",
+    "director": "Arthur Hiller",
+    "starring": ["Ali MacGraw", "Ryan O'Neal", "John Marley", "Ray Milland"],
+    "incoming": "$106.40M"
+  },
+  {
+    "id": "ab0ce922-162e-4494-9aaa-40ff65c35e7e",
+    "title": "Un paseo para recordar",
+    "year": "2002",
+    "duration": 101,
+    "categories": ["Drama", "Romántico"],
+    "age": "T.P.",
+    "language": "en",
+    "score": 7.3,
+    "synopsis": "Dos adolescentes de Carolina del Norte, Landon Carter y Jamie Sullivan, se juntan después de que Landon se mete en problemas y es sentenciado a realizar un servicio comunitario.",
+    "director": "Adam Shankman",
+    "starring": ["Mandy Moore", "Shane West", "Peter Coyote", "Daryl Hannah"],
+    "incoming": "$41.23M"
+  }
+]

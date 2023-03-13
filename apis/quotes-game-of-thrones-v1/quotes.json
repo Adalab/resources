@@ -1,0 +1,57 @@
+[
+  {
+    "sentence": "All men must die, but we are not men.",
+    "character": {
+      "name": "Daenerys Targaryen",
+      "slug": "daenerys",
+      "house": {
+        "name": "House Targaryen of King's Landing",
+        "slug": "targaryen"
+      }
+    }
+  },
+  {
+    "sentence": "Love is more powerful than reason. We all know that.",
+    "character": {
+      "name": "Tyrion Lannister",
+      "slug": "tyrion",
+      "house": {
+        "name": "House Lannister of Casterly Rock",
+        "slug": "lannister"
+      }
+    }
+  },
+  {
+    "sentence": "If you think this has a happy ending, you haven't been paying attention.",
+    "character": {
+      "name": "Ramsay Bolton",
+      "slug": "ramsay",
+      "house": {
+        "name": "House Bolton of the Dreadfort",
+        "slug": "bolton"
+      }
+    }
+  },
+  {
+    "sentence": "There is only one war that matters. The Great War. And it is here.",
+    "character": {
+      "name": "Jon Snow",
+      "slug": "jon",
+      "house": {
+        "name": "House Stark of Winterfell",
+        "slug": "stark"
+      }
+    }
+  },
+  {
+    "sentence": "If you want a whore, buy one. If you want a Queen, earn her.",
+    "character": {
+      "name": "Cersei Lannister",
+      "slug": "cersei",
+      "house": {
+        "name": "House Lannister of Casterly Rock",
+        "slug": "lannister"
+      }
+    }
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "p0",
+      "name": "Node JS",
+      "price": 16,
+      "imageUrl": "//beta.adalab.es/curso-intensivo-fullstack-recursos/apis/tshirt-eshop-v1/images/node.jpg",
+      "description": "Camiseta de Node JS",
+      "sizes": [
+        "s",
+        "l",
+        "xl"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "JavaScript",
+      "price": 15,
+      "imageUrl": "//beta.adalab.es/curso-intensivo-fullstack-recursos/apis/tshirt-eshop-v1/images/javascript.jpg",
+      "description": "Camiseta de JavaScript",
+      "sizes": [
+        "l",
+        "xl",
+        "xxl"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "React JS",
+      "price": 13,
+      "imageUrl": "//beta.adalab.es/curso-intensivo-fullstack-recursos/apis/tshirt-eshop-v1/images/react.jpg",
+      "description": "Camiseta de React JS",
+      "sizes": [
+        "s",
+        "m",
+        "l"
+      ]
+    }
+  ]
+}

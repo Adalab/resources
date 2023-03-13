@@ -1,0 +1,145 @@
+{
+  "characters": [
+    {
+      "characterName": "Addam Marbrand",
+      "characterLink": "/character/ch0305333/",
+      "actorName": "B.J. Hogg",
+      "actorLink": "/name/nm0389698/"
+    },
+    {
+      "characterName": "Aegon Targaryen",
+      "houseName": "Targaryen",
+      "royal": true,
+      "parents": ["Elia Martell", "Rhaegar Targaryen"],
+      "siblings": ["Rhaenys Targaryen", "Jon Snow"],
+      "killedBy": ["Gregor Clegane"]
+    },
+    {
+      "characterName": "Aeron Greyjoy",
+      "houseName": "Greyjoy",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzI5MDg0ZDAtN2Y2ZC00MzU1LTgyYjQtNTBjYjEzODczZDVhXkEyXkFqcGdeQXVyNTg0Nzg4NTE@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzI5MDg0ZDAtN2Y2ZC00MzU1LTgyYjQtNTBjYjEzODczZDVhXkEyXkFqcGdeQXVyNTg0Nzg4NTE@._V1_.jpg",
+      "characterLink": "/character/ch0540081/",
+      "actorName": "Michael Feast",
+      "actorLink": "/name/nm0269923/",
+      "siblings": ["Balon Greyjoy", "Euron Greyjoy"],
+      "nickname": "Damphair"
+    },
+    {
+      "characterName": "Aerys II Targaryen",
+      "houseName": "Targaryen",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMWQzOWViN2ItNDZhOS00MmZlLTkxZTYtZDg5NGUwMGRmYWZjL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMWQzOWViN2ItNDZhOS00MmZlLTkxZTYtZDg5NGUwMGRmYWZjL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_.jpg",
+      "characterLink": "/character/ch0541362/",
+      "actorName": "David Rintoul",
+      "actorLink": "/name/nm0727778/",
+      "nickname": "The Mad King",
+      "royal": true,
+      "killed": ["Brandon Stark", "Rickard Stark"],
+      "servedBy": ["Arthur Dayne", "Jaime Lannister"],
+      "parentOf": [
+        "Daenerys Targaryen",
+        "Rhaegar Targaryen",
+        "Viserys Targaryen"
+      ],
+      "siblings": ["Rhaella Targaryen"],
+      "marriedEngaged": ["Rhaella Targaryen"],
+      "killedBy": ["Jaime Lannister"]
+    },
+    {
+      "characterName": "Akho",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BOGE4ZDZmOGUtNGE4Ny00Y2VmLThiOGItMjk3Y2U0ZDY3OWQxXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BOGE4ZDZmOGUtNGE4Ny00Y2VmLThiOGItMjk3Y2U0ZDY3OWQxXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_.jpg",
+      "characterLink": "/character/ch0544520/",
+      "actorName": "Chuku Modu",
+      "actorLink": "/name/nm6729880/",
+      "killedBy": ["Daario Naharis"]
+    },
+    {
+      "characterName": "Alliser Thorne",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAxMjExMjA3M15BMl5BanBnXkFtZTcwMjI1ODg5NA@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAxMjExMjA3M15BMl5BanBnXkFtZTcwMjI1ODg5NA@@._V1_SY1000_CR0,0,666,1000_AL_.jpg",
+      "characterLink": "/character/ch0246938/",
+      "actorName": "Owen Teale",
+      "actorLink": "/name/nm0853583/",
+      "killed": ["Jon Snow"],
+      "killedBy": ["Jon Snow"]
+    },
+    {
+      "characterName": "Alton Lannister",
+      "houseName": "Lannister",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU0NTU1NTAzOF5BMl5BanBnXkFtZTcwNzA2NDk4OA@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU0NTU1NTAzOF5BMl5BanBnXkFtZTcwNzA2NDk4OA@@._V1_.jpg",
+      "characterLink": "/character/ch0305012/",
+      "actorName": "Karl Davies",
+      "actorLink": "/name/nm0203801/",
+      "killedBy": ["Jaime Lannister"]
+    },
+    {
+      "characterName": "Alys Karstark",
+      "characterLink": "/character/ch0576836/",
+      "actorName": "Megan Parkinson",
+      "actorLink": "/name/nm8257864/",
+      "parents": ["Harald Karstark"]
+    },
+    {
+      "characterName": "Amory Lorch",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTVmY2M2YmUtY2JkYS00NjIyLWFhYTAtNTNlZmI4ODdiNmE5XkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTVmY2M2YmUtY2JkYS00NjIyLWFhYTAtNTNlZmI4ODdiNmE5XkEyXkFqcGdeQXVyMjg2MTMyNTM@._V1_.jpg",
+      "characterLink": "/character/ch0305002/",
+      "actorName": "Fintan McKeown",
+      "actorLink": "/name/nm0571654/",
+      "killed": ["Yoren"],
+      "killedBy": ["Jaqen H'ghar"]
+    },
+    {
+      "characterName": "Anguy",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BNmRhY2M4YmItNjc2Yi00ZDc0LWE5NmUtNGE5OWE0YTQ2YjY3XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BNmRhY2M4YmItNjc2Yi00ZDc0LWE5NmUtNGE5OWE0YTQ2YjY3XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_.jpg",
+      "characterLink": "/character/ch0316930/",
+      "actorName": "Philip McGinley",
+      "actorLink": "/name/nm1528121/"
+    },
+    {
+      "characterName": "Archmaester Marwyn",
+      "characterLink": "/character/ch0578265/",
+      "actorName": "Jim Broadbent",
+      "actorLink": "/name/nm0000980/"
+    },
+    {
+      "characterName": "Areo Hotah",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BNWFkNTAwNzctOGQ2ZS00OTMyLWE3NDYtOGUwM2E1MzVlYjI0XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BNWFkNTAwNzctOGQ2ZS00OTMyLWE3NDYtOGUwM2E1MzVlYjI0XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_.jpg",
+      "characterLink": "/character/ch0507107/",
+      "actorName": "Deobia Oparei",
+      "actorLink": "/name/nm0649046/",
+      "killedBy": ["Tyene Sand"],
+      "serves": ["Doran Martell"]
+    },
+    {
+      "characterName": "Armeca",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BZmQyMGVlMDctYWFhMi00YzMyLTlkZDgtOWNmZTY3NmZkYzZlXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BZmQyMGVlMDctYWFhMi00YzMyLTlkZDgtOWNmZTY3NmZkYzZlXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_.jpg",
+      "characterLink": "/character/ch0305014/",
+      "actorName": "Sahara Knite",
+      "actorLink": "/name/nm1783582/"
+    },
+    {
+      "characterName": "Arthur",
+      "characterLink": "/character/ch0305326/",
+      "actorName": "Nathanael Saleh",
+      "actorLink": "/name/nm8127149/"
+    },
+    {
+      "characterName": "Arthur Dayne",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BODczZDUxYmQtMzk1MC00ZTUwLTk1MjAtZDJlODViMWFhOGU5XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BODczZDUxYmQtMzk1MC00ZTUwLTk1MjAtZDJlODViMWFhOGU5XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_.jpg",
+      "characterLink": "/character/ch0540097/",
+      "actorName": "Luke Roberts",
+      "actorLink": "/name/nm1074361/",
+      "kingsguard": true,
+      "killedBy": ["Howland Reed", "Eddard Stark"],
+      "serves": ["Aerys II Targaryen"]
+    }
+  ]
+}

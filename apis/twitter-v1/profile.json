@@ -1,0 +1,15 @@
+{
+  "banner": "//beta.adalab.es/curso-intensivo-fullstack-recursos/apis/twitter-v1/images/profile-banner.jpg",
+  "logo": "//beta.adalab.es/curso-intensivo-fullstack-recursos/apis/twitter-v1/images/profile-logo.png",
+  "avatar": "//beta.adalab.es/curso-intensivo-fullstack-recursos/apis/twitter-v1/images/user-me.jpg",
+  "user": "Adalab",
+  "username": "adalab_digital",
+  "tweets": 6762,
+  "region": "Madrid, Comunidad de Madrid",
+  "webLink": "https://adalab.es",
+  "webText": "adalab.es",
+  "date": "agosto de 2016",
+  "followers": 5601,
+  "following": 1908,
+  "description": "👩‍💻 Escuela de programación web para mujeres.\n📅 Próximo curso: noviembre 2021.\n📌 Clases online en directo.\n🚀 Aprende a programar en solo 12 semanas."
+}
