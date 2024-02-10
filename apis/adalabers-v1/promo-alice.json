@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Nanakuh",
+    "promo": "A",
+    "mode": "part-time",
+    "github": "Ana",
+    "city": "Madrid",
+    "technologies": ["React", "ExpressJS", "Mongo", "MySQL"]
+  },
+  {
+    "name": "AntiaNavajasGarrido",
+    "promo": "A",
+    "mode": "part-time",
+    "github": "Antia",
+    "city": "Madrid",
+    "technologies": ["HTML5", "Sass", "MySQL"]
+  },
+  {
+    "name": "belenviton",
+    "promo": "A",
+    "mode": "part-time",
+    "github": "Belén",
+    "city": "Granada",
+    "technologies": ["ExpressJS", "Mongo", "MySQL"]
+  },
+  {
+    "name": "BessyEscobar",
+    "promo": "A",
+    "mode": "part-time",
+    "github": "Bessy",
+    "city": "Madrid",
+    "technologies": ["HTML5", "Sass", "JavaScript", "React"]
+  },
+  {
+    "name": "elenavesc",
+    "promo": "A",
+    "mode": "part-time",
+    "github": "Elena",
+    "city": "Granada",
+    "technologies": ["HTML5", "Sass", "JavaScript", "React", "ExpressJS"]
+  },
+  {
+    "name": "esgab",
+    "promo": "A",
+    "mode": "part-time",
+    "github": "Esther",
+    "city": "Illes Balears",
+    "technologies": ["React", "ExpressJS", "Mongo", "MySQL"]
+  },
+  {
+    "name": "INDRAKL",
+    "promo": "A",
+    "mode": "part-time",
+    "github": "Indra",
+    "city": "Madrid",
+    "technologies": ["HTML5", "Sass", "JavaScript", "React"]
+  },
+  {
+    "name": "iewaw",
+    "promo": "A",
+    "mode": "part-time",
+    "github": "Izabela",
+    "city": "Sevilla",
+    "technologies": ["HTML5", "Sass", "Mongo", "MySQL"]
+  },
+  {
+    "name": "larafdezmorena",
+    "promo": "A",
+    "mode": "part-time",
+    "github": "Lara",
+    "city": "Ciudad Real",
+    "technologies": ["React", "ExpressJS", "Mongo", "MySQL"]
+  },
+  {
+    "name": "laumonmay",
+    "promo": "A",
+    "mode": "part-time",
+    "github": "Laura",
+    "city": "Madrid",
+    "technologies": ["HTML5", "Sass", "JavaScript", "React"]
+  },
+  {
+    "name": "maialenmunoa",
+    "promo": "A",
+    "mode": "part-time",
+    "github": "Maialen",
+    "city": "Madrid",
+    "technologies": ["Mongo", "MySQL"]
+  },
+  {
+    "name": "mariabote",
+    "promo": "A",
+    "mode": "part-time",
+    "github": "Maria",
+    "city": "Fuera de España",
+    "technologies": ["HTML5", "Sass"]
+  },
+  {
+    "name": "Marta-Af",
+    "promo": "A",
+    "mode": "part-time",
+    "github": "Marta",
+    "city": "Pontevedra",
+    "technologies": ["React", "ExpressJS", "Mongo", "MySQL"]
+  },
+  {
+    "name": "MARTABLANCOORTE",
+    "promo": "A",
+    "mode": "part-time",
+    "github": "Marta",
+    "city": "Madrid",
+    "technologies": ["JavaScript", "React", "ExpressJS"]
+  },
+  {
+    "name": "reyesjerez",
+    "promo": "A",
+    "mode": "part-time",
+    "github": "Reyes",
+    "city": "Ávila",
+    "technologies": ["JavaScript", "React", "ExpressJS", "Mongo", "MySQL"]
+  },
+  {
+    "name": "Sara-Gavi",
+    "promo": "A",
+    "mode": "part-time",
+    "github": "Sara G.",
+    "city": "Barcelona",
+    "technologies": ["Mongo", "MySQL"]
+  },
+  {
+    "name": "SaraSzCr",
+    "promo": "A",
+    "mode": "part-time",
+    "github": "Sara S.",
+    "city": "Fuera de España",
+    "technologies": ["React", "ExpressJS", "Mongo", "MySQL"]
+  },
+  {
+    "name": "Vir19",
+    "promo": "A",
+    "mode": "part-time",
+    "github": "Virginia",
+    "city": "Málaga",
+    "technologies": ["React", "ExpressJS", "Mongo", "MySQL"]
+  }
+]
