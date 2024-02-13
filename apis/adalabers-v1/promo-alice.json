@@ -1,145 +1,145 @@
 [
   {
-    "name": "Nanakuh",
+    "github": "Nanakuh",
     "promo": "A",
     "mode": "part-time",
-    "github": "Ana",
+    "name": "Ana",
     "city": "Madrid",
     "technologies": ["React", "ExpressJS", "Mongo", "MySQL"]
   },
   {
-    "name": "AntiaNavajasGarrido",
+    "github": "AntiaNavajasGarrido",
     "promo": "A",
     "mode": "part-time",
-    "github": "Antia",
+    "name": "Antia",
     "city": "Madrid",
     "technologies": ["HTML5", "Sass", "MySQL"]
   },
   {
-    "name": "belenviton",
+    "github": "belenviton",
     "promo": "A",
     "mode": "part-time",
-    "github": "Belén",
+    "name": "Belén",
     "city": "Granada",
     "technologies": ["ExpressJS", "Mongo", "MySQL"]
   },
   {
-    "name": "BessyEscobar",
+    "github": "BessyEscobar",
     "promo": "A",
     "mode": "part-time",
-    "github": "Bessy",
+    "name": "Bessy",
     "city": "Madrid",
     "technologies": ["HTML5", "Sass", "JavaScript", "React"]
   },
   {
-    "name": "elenavesc",
+    "github": "elenavesc",
     "promo": "A",
     "mode": "part-time",
-    "github": "Elena",
+    "name": "Elena",
     "city": "Granada",
     "technologies": ["HTML5", "Sass", "JavaScript", "React", "ExpressJS"]
   },
   {
-    "name": "esgab",
+    "github": "esgab",
     "promo": "A",
     "mode": "part-time",
-    "github": "Esther",
+    "name": "Esther",
     "city": "Illes Balears",
     "technologies": ["React", "ExpressJS", "Mongo", "MySQL"]
   },
   {
-    "name": "INDRAKL",
+    "github": "INDRAKL",
     "promo": "A",
     "mode": "part-time",
-    "github": "Indra",
+    "name": "Indra",
     "city": "Madrid",
     "technologies": ["HTML5", "Sass", "JavaScript", "React"]
   },
   {
-    "name": "iewaw",
+    "github": "iewaw",
     "promo": "A",
     "mode": "part-time",
-    "github": "Izabela",
+    "name": "Izabela",
     "city": "Sevilla",
     "technologies": ["HTML5", "Sass", "Mongo", "MySQL"]
   },
   {
-    "name": "larafdezmorena",
+    "github": "larafdezmorena",
     "promo": "A",
     "mode": "part-time",
-    "github": "Lara",
+    "name": "Lara",
     "city": "Ciudad Real",
     "technologies": ["React", "ExpressJS", "Mongo", "MySQL"]
   },
   {
-    "name": "laumonmay",
+    "github": "laumonmay",
     "promo": "A",
     "mode": "part-time",
-    "github": "Laura",
+    "name": "Laura",
     "city": "Madrid",
     "technologies": ["HTML5", "Sass", "JavaScript", "React"]
   },
   {
-    "name": "maialenmunoa",
+    "github": "maialenmunoa",
     "promo": "A",
     "mode": "part-time",
-    "github": "Maialen",
+    "name": "Maialen",
     "city": "Madrid",
     "technologies": ["Mongo", "MySQL"]
   },
   {
-    "name": "mariabote",
+    "github": "mariabote",
     "promo": "A",
     "mode": "part-time",
-    "github": "Maria",
+    "name": "Maria",
     "city": "Fuera de España",
     "technologies": ["HTML5", "Sass"]
   },
   {
-    "name": "Marta-Af",
+    "github": "Marta-Af",
     "promo": "A",
     "mode": "part-time",
-    "github": "Marta",
+    "name": "Marta",
     "city": "Pontevedra",
     "technologies": ["React", "ExpressJS", "Mongo", "MySQL"]
   },
   {
-    "name": "MARTABLANCOORTE",
+    "github": "MARTABLANCOORTE",
     "promo": "A",
     "mode": "part-time",
-    "github": "Marta",
+    "name": "Marta",
     "city": "Madrid",
     "technologies": ["JavaScript", "React", "ExpressJS"]
   },
   {
-    "name": "reyesjerez",
+    "github": "reyesjerez",
     "promo": "A",
     "mode": "part-time",
-    "github": "Reyes",
+    "name": "Reyes",
     "city": "Ávila",
     "technologies": ["JavaScript", "React", "ExpressJS", "Mongo", "MySQL"]
   },
   {
-    "name": "Sara-Gavi",
+    "github": "Sara-Gavi",
     "promo": "A",
     "mode": "part-time",
-    "github": "Sara G.",
+    "name": "Sara G.",
     "city": "Barcelona",
     "technologies": ["Mongo", "MySQL"]
   },
   {
-    "name": "SaraSzCr",
+    "github": "SaraSzCr",
     "promo": "A",
     "mode": "part-time",
-    "github": "Sara S.",
+    "name": "Sara S.",
     "city": "Fuera de España",
     "technologies": ["React", "ExpressJS", "Mongo", "MySQL"]
   },
   {
-    "name": "Vir19",
+    "github": "Vir19",
     "promo": "A",
     "mode": "part-time",
-    "github": "Virginia",
+    "name": "Virginia",
     "city": "Málaga",
     "technologies": ["React", "ExpressJS", "Mongo", "MySQL"]
   }
