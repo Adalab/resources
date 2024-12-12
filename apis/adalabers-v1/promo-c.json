@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Andreea Dragan",
+    "github": "biancadragan",
+    "city": "Madrid",
+    "teacher": "Iván",
+    "promoLetter": "C",
+    "modal": "Part-time",
+    "aprobada": false,
+    "notaAprobada": 9,
+    "technologies": {
+      "html": 9,
+      "sass": 10,
+      "js": 9,
+      "react": 10,
+      "express": 9
+    },
+    "team": [1, 1],
+    "pair": ['', 'Celia']
+  },
+  {
+    "name": "Celia Recio",
+    "github": "celia-r-revert",
+    "city": "Sevilla",
+    "teacher": "Iván",
+    "promoLetter": "C",
+    "modal": "Part-time",
+    "technologies": {},
+    "teams": []
+  },
+  {
+    "name": "Estefanía Navas",
+    "github": "fafafaniia",
+    "city": "Madrid",
+    "teacher": "Iván",
+    "promoLetter": "C",
+    "modal": "Part-time",
+    "technologies": {},
+    "teams": []
+  },
+  {
+    "name": "Esther Bonilla",
+    "github": "Estherbg85",
+    "city": "Madrid",
+    "teacher": "Iván",
+    "promoLetter": "C",
+    "modal": "Part-time",
+    "technologies": {},
+    "teams": []
+  },
+  {
+    "name": "Francheska Contreras",
+    "github": "francheskajcg",
+    "city": "Madrid",
+    "teacher": "Iván",
+    "promoLetter": "C",
+    "modal": "Part-time",
+    "technologies": {},
+    "teams": []
+  },
+  {
+    "name": "Izaskun Monfort",
+    "github": "16IMA",
+    "city": "Madrid",
+    "teacher": "Iván",
+    "promoLetter": "C",
+    "modal": "Part-time",
+    "technologies": {},
+    "teams": []
+  },
+  {
+    "name": "Julia López",
+    "github": "Juls-ux",
+    "city": "Málaga",
+    "teacher": "Iván",
+    "promoLetter": "C",
+    "modal": "Part-time",
+    "technologies": {},
+    "teams": []
+  },
+  {
+    "name": "María García",
+    "github": "mgantunez",
+    "city": "Madrid",
+    "teacher": "Iván",
+    "promoLetter": "C",
+    "modal": "Part-time",
+    "technologies": {},
+    "teams": []
+  },
+  {
+    "name": "Marta Chacartegui",
+    "github": "martach29",
+    "city": "Sevilla",
+    "teacher": "Iván",
+    "promoLetter": "C",
+    "modal": "Part-time",
+    "technologies": {},
+    "teams": []
+  }
+]
