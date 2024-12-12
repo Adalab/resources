@@ -1,6 +1,6 @@
 [
   {
-    "name": "Andreea Dragan",
+    "name": "Bianca Dragan",
     "github": "biancadragan",
     "city": "Madrid",
     "teacher": "Iván",
@@ -16,7 +16,7 @@
       "express": 9
     },
     "team": [1, 1],
-    "pair": ['', 'Celia']
+    "pair": ["", "Celia"]
   },
   {
     "name": "Celia Recio",
