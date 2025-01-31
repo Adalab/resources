@@ -1,0 +1,100 @@
+[
+  {
+    "uuid": "675528b8-9d99-4ca5-8216-89b829d338eb",
+    "name": "Luna",
+    "image_url": "https://placecats.com/300/300",
+    "description": "Gata siamesa elegante y juguetona que adora las siestas al sol.",
+    "good_with_children": true,
+    "favorite_toys": [
+      "Varita de plumas",
+      "Pelota arrugada",
+      "Ratón de catnip"
+    ],
+    "age": 2,
+    "health": {
+      "vaccinated": true,
+      "spayed": true,
+      "last_vet_check": "2023-09-01"
+    },
+    "adoption_status": "available",
+    "history": "Rescatada de la calle en el centro de la ciudad."
+  },
+  {
+    "uuid": "0c2be2c3-4c5b-4385-bd7d-0e41a6ab4be0",
+    "name": "Simba",
+    "image_url": "https://placecats.com/200/300",
+    "description": "Gatito naranja muy energético que siempre está listo para jugar.",
+    "good_with_children": false,
+    "favorite_toys": [
+      "Pelota de lana",
+      "Poste de scratching",
+      "Puntero láser"
+    ],
+    "age": 1,
+    "health": {
+      "vaccinated": true,
+      "spayed": false,
+      "last_vet_check": "2023-08-15"
+    },
+    "adoption_status": "pending",
+    "history": "Encontrado en un parque, estaba deshidratado pero ahora está saludable."
+  },
+  {
+    "uuid": "f8d95c60-00ba-44c8-8e79-24e638463c88",
+    "name": "Mía",
+    "image_url": "https://placecats.com/300/200",
+    "description": "Gata tricolor tímida pero muy dulce una vez que gana confianza.",
+    "good_with_children": true,
+    "favorite_toys": [
+      "Ratón de catnip",
+      "Poste de scratching",
+      "Pelota arrugada"
+    ],
+    "age": 3,
+    "health": {
+      "vaccinated": true,
+      "spayed": true,
+      "last_vet_check": "2023-07-20"
+    },
+    "adoption_status": "available",
+    "history": "Rescatada de un edificio abandonado, estaba asustada pero ahora está más tranquila."
+  },
+  {
+    "uuid": "3e37a15e-fbf9-4c17-88de-32bb78cd6579",
+    "name": "Oliver",
+    "image_url": "https://placecats.com/300/600",
+    "description": "Gato negro majestuoso que adora ser el centro de atención.",
+    "good_with_children": true,
+    "favorite_toys": [
+      "Varita de plumas",
+      "Puntero láser"
+    ],
+    "age": 4,
+    "health": {
+      "vaccinated": true,
+      "spayed": true,
+      "last_vet_check": "2023-09-10"
+    },
+    "adoption_status": "available",
+    "history": "Encontrado en un callejón, estaba desnutrido pero ahora está en perfecto estado."
+  },
+  {
+    "uuid": "e14df2a7-1435-4917-ace9-6cf7b9941fe9",
+    "name": "Nala",
+    "image_url": "https://placecats.com/500/500",
+    "description": "Gatita atigrada experta en acrobacias y cazadora de juguetes.",
+    "good_with_children": false,
+    "favorite_toys": [
+      "Pelota arrugada",
+      "Caja de cartón"
+    ],
+    "age": 1,
+    "health": {
+      "vaccinated": true,
+      "spayed": false,
+      "last_vet_check": "2023-08-25"
+    },
+    "adoption_status": "pending",
+    "history": "Rescatada de una zona industrial, estaba asustada pero ahora está más sociable."
+  }
+]
