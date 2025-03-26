@@ -1,0 +1,137 @@
+[
+{
+    "id": 17,
+    "name": "Luna",
+    "description": "Poema visual recitable, a base de dibujos rimados y ritmados. La luna y el sol, tan lejanos y próximos, tejen versos y estribillos desde el cielo hasta estas páginas de cartón.",
+    "author": "Antonio Rubio Y Oscar Villán",
+    "age_range": "0-1",
+    "publisher": "Kalandraka",
+    "cover_image": "https://2.bp.blogspot.com/-4m7eM2NfDvg/WfthTX3MwcI/AAAAAAAAC8Y/F1VIhdbfO_c1HfJx7lSv7Pft5Y7vRjEQACLcBGAs/s1600/luna%2BC.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Cocodrilo",
+    "description": "La colección De la cuna a la luna está dirigida a niños y niñas de 0 a 3 años de edad, para quienes se han diseñado especialmente estos pictogramas poéticos o poegramas; un término acuñado para designar una nueva modalidad de poesía pictográfica basada en la búsqueda de un ritmo de lectura que ayude a educar el ojo y endulzar el oído, del pequeño lector, como explica Antonio Rubio. Por su parte, Óscar Villán -Premio Nacional de Ilustración 1999- elabora la propuesta estética de estos cinco libros. Su trabajo es totalmente artesanal, con pinceladas y tonalidades de color fácilmente apreciables, hasta el punto de que las texturas pueden casi palparse. La imagen resalta sobre un fondo claro; el dibujo es sencillo y reconocible, con el toque personal de Villán.",
+    "author": "Antonio Rubio Y Oscar Villán",
+    "age_range": "0-1",
+    "publisher": "Kalandraka",
+    "cover_image": "https://www.sopadesapo.com/imagenes_grandes/9788493/978849337801.JPG"
+  },
+  {
+    "id": 19,
+    "name": "Cucu tras luna",
+    "description": "Este libro incluye las rutinas de antes de ir a dormir: cepillarnos los dientes, apagar la luz y muchas otras sorpresas. Contiene 10 mecanismos hiperfáciles de usar para que las pequeñas manos puedan deslizar, girar y mover las solapas y lengüetas y hacer aparecer divertidos personajes. Además, los mecanismos se encuentran en todas las páginas, de manera que permiten desarrollar ambas lateralidades. Al final del libro encontrarán un espejo para mirarse y sorprenderse. Los acabados son de altísima calidad y el formato en cartón resistente permite que los bebés lo manipulen a su antojo y disfruten de sus primeras experiencias con el formato libro.",
+    "author": "Ingela P Arrhenius",
+    "age_range": "0-1",
+    "publisher": "Timun mas",
+    "cover_image": "https://www.akiracomics.com/imagenes/poridentidad?identidad=657e4430-2ef9-42bb-ab6f-56c90c22ee23"
+  },
+  {
+    "id": 20,
+    "name": "El pollo Pepe se da un baño",
+    "description": "Un divertido libro de baño para que el bebé descubra al pollo Pepe y sus amigos. ¿Quién chapotea en la bañera? ¿Es el perro López o la rana Ramona?",
+    "author": "Nick Denchfield",
+    "age_range": "0-1",
+    "publisher": "SM",
+    "cover_image": "https://www.polifemo.com/static/img/portadas/_visd_0000JPG01WJT.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Los animalitos, primer libro de sonidos",
+    "description": "Un libro con 6 sonidos y 6 imágenes de las siguientes crías de animales: Los corderitos El gatito El burrito El perrito El cerdito Los pollitos",
+    "author": "Marion Billet",
+    "age_range": "0-1",
+    "publisher": "Timun mas",
+    "cover_image": null
+  },
+  {
+    "id": 22,
+    "name": "El pollo Pepe",
+    "description": "El pollo Pepe está creciendo mucho porque come muy bien pero su mamá es mucho más grande que él. El pollo Pepe es un cuento POP UP y un éxito de ventas que hace furor entre los niños de 1 y 2 años.",
+    "author": "Nick Denchfield",
+    "age_range": "1-2",
+    "publisher": "SM",
+    "cover_image": "https://imagenes.espaciologopedico.com/tienda/13/9788434856813.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Pepe y Mila pasan el dia en la granja",
+    "description": "Es otoño y Pepe y Mila pasan el día en la granja de su amigo Coco. Riegan el huerto, recogen las manzanas y cosechan las calabazas, ordeñan a la vaca, van al gallinero y ven muchos animales. Un pack que contiene un libro de cartón con solapas y lengüetas para que el niño descubra la vida en la granja y un muñeco del perro Pepe.",
+    "author": "Yayo Kawamura",
+    "age_range": "1-2",
+    "publisher": "SM",
+    "cover_image": "https://www.astrolibros.com/12948-large_default/pepe-y-mila-pasan-el-dia-en-la-granja.jpg"
+  },
+  {
+    "id": 24,
+    "name": "cucu tras",
+    "description": "Este libro invita al niño a jugar al que quizás sea el primer juego que aprende: el Cucú-tras.Le gustará observar las grandes ilustraciones de alegres colores y se divertirá levantando las solapas tras las que se esconden diferentes animales de granja.",
+    "author": "AA. VSMV",
+    "age_range": "1-2",
+    "publisher": "SM",
+    "cover_image": null
+  },
+  {
+    "id": 25,
+    "name": "cucu tras de animales del polo",
+    "description": "Este libro invita al niño a jugar al que quizás sea el primer juego que aprende: el Cucú-tras. Le gustará observar las grandes ilustraciones de alegres colores y se divertirá levantando las solapas tras las que se esconden diferentes animales que viven en el Polo.",
+    "author": "Francesca Ferri",
+    "age_range": "1-2",
+    "publisher": "SM",
+    "cover_image": null
+  },
+  {
+    "id": 26,
+    "name": "cucu tras de la selva",
+    "description": "Este libro invita al niño a jugar al que quizás sea el primer juego que aprende: el Cucú-tras. Le gustará observar las grandes ilustraciones de alegres colores y se divertirá levantando las solapas tras las que se esconden diferentes animales que viven en la selva y la sabana.",
+    "author": "Francesca Ferri",
+    "age_range": "1-2",
+    "publisher": "SM",
+    "cover_image": null
+  },
+  {
+    "id": 27,
+    "name": "busca al grufalo",
+    "description": "¡Levanta las solapas para encontrar al grúfalo! El pequeño ratón lo está buscando, ¿le ayudas a encontrarlo? Asómate a las rocas, mueve los arbustos, observa con atención la copa de los árboles ¡y descubre todos los secretos que esconde el bosque!",
+    "author": "Julia Donaldson",
+    "age_range": "2-3",
+    "publisher": "Bruño",
+    "cover_image": null
+  },
+  {
+    "id": 28,
+    "name": "la pequeña oruga glotona",
+    "description": "La oruga era muy pequeña, pero tenía un hambre enorme. Así que se pasó todo este cuento comiendo, atravesando página tras página. Hasta que finalmente se convirtió, como todas las orugas, en mariposa. Un libro agujereado de verdad por la muy glotona",
+    "author": "Eric Carle",
+    "age_range": "2-3",
+    "publisher": "Kokinos",
+    "cover_image": null
+  },
+  {
+    "id": 29,
+    "name": "un bicho extraño",
+    "description": "Rima y ritmo, para descubrir la función lúdica de la lectura. Un bicho extraño es un pequeño libro de cartón para primeros lectores, de los llamados estherbg85 sin fin, porque pasando las páginas y dándole la vuelta al cuento..",
+    "author": "Mon Daporta",
+    "age_range": "2-3",
+    "publisher": "Kalandraka",
+    "cover_image": null
+  },
+  {
+    "id": 30,
+    "name": "un libro ",
+    "description": "Al abrir este libro solo se ve un círculo amarillo sobre la página en blanco. Entonces, se invita al lector a pulsar ese círculo con el dedo y averiguar qué ocurre. ¿Qué niño curioso podría resistirse a semejante desafío? Para saber la respuesta simplemente hay que dar la vuelta a la página ¡Y así empieza la magia! Círculos rojos, amarillos y azules se desdoblan, cambian de lugar, se colocan en fila, crecen Incluso están a punto de caerse por el borde del libro o volar hasta desaparecer. Todo depende de lo que el niño haga, si los aprieta, los frota, sopla sobre ellos o los agita.",
+    "author": "Herve Tullet",
+    "age_range": "2-3",
+    "publisher": "Kokinos",
+    "cover_image": null
+  },
+  {
+    "id": 31,
+    "name": "voy a comedte",
+    "description": "Un lobo malo, hambriento y que habla de una forma rarísima espera en el bosque a que aparezca un delicioso bocado. Con tan mala suerte que se topa con un par de conejitos listos que le quitarán un pelo que tiene en la lengua y, sobre todo ¡las ganas de comer carne! El primer conejo descubre que el lobo habla raro porque tiene un pelo en la lengua. Le promete extraérselo y, con esa artimaña, escapa. Otro conejo lo engaña enseñándole a cazar bien. El lobo finalmente se equivoca, ataca a un oso y en su huída se da un trastazo y pierde los dientes. ¡Y se hace vegetariano! ",
+    "author": "Jean-Marc Derqueen y Luare de Faya",
+    "age_range": "2-3",
+    "publisher": "Kokinos",
+    "cover_image": null
+  }
+]
