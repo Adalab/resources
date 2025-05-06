@@ -1,173 +1,192 @@
 [
-    {
-        "nombre": "Angélica Gozálvez Huertas",
-        "email": "angelicagh87@gmail.com",
-        "grupo": "Yanelis",
-        "id": 51,
-        "dedicacion": "Part-time",
-        "nacionalidad": "Española",
-        "localidad": "Aguadulce"
-    },
-    {
-        "nombre": "Chiara Cusi",
-        "email": "cusichia@gmail.com",
-        "grupo": "Yanelis",
-        "id": 51,
-        "dedicacion": "Part-time",
-        "nacionalidad": "Italiana",
-        "localidad": "Barcelona"
-    },
-    {
-        "nombre": "Clàudia Pintos Relat",
-        "email": "clauprelat@gmail.com",
-        "grupo": "Yanelis",
-        "id": 51,
-        "dedicacion": "Part-time",
-        "nacionalidad": "Española",
-        "localidad": "Barcelona"
-    },
-    {
-        "nombre": "Joana Maria Gomes Nunes",
-        "email": "joananunes33@gmail.com",
-        "grupo": "Yanelis",
-        "id": 51,
-        "dedicacion": "Part-time",
-        "nacionalidad": "Portuguesa",
-        "localidad": "Braga"
-    },
-    {
-        "nombre": "Josune Morales Arrieta",
-        "email": "josune.mo@gmail.com",
-        "grupo": "Yanelis",
-        "id": 51,
-        "dedicacion": "Part-time",
-        "nacionalidad": "Española",
-        "localidad": "Madrid"
-    },
-    {
-        "nombre": "Laura Lobos Montañés",
-        "email": "laurawlobos@gmail.com",
-        "grupo": "Yanelis",
-        "id": 51,
-        "dedicacion": "Part-time",
-        "nacionalidad": "Española",
-        "localidad": "madrid"
-    },
-    {
-        "nombre": "Lucía Carballo Castrillo",
-        "email": "lulucarcas98@gmail.com",
-        "grupo": "Yanelis",
-        "id": 51,
-        "dedicacion": "Part-time",
-        "nacionalidad": "Española",
-        "localidad": "Madrid"
-    },
-    {
-        "nombre": "Macarena Marquez Pacheco",
-        "email": "makkss.5293@gmail.com",
-        "grupo": "Yanelis",
-        "id": 51,
-        "dedicacion": "Part-time",
-        "nacionalidad": "Española",
-        "localidad": "El Puerto de Santa Maria"
-    },
-    {
-        "nombre": "Marina Boyano González",
-        "email": "marina.boyano.gonzalez@gmail.com",
-        "grupo": "Yanelis",
-        "id": 51,
-        "dedicacion": "Part-time",
-        "nacionalidad": "Española",
-        "localidad": "Mejorada del Campo"
-    },
-    {
-        "nombre": "Montserrat Moran Ribas",
-        "email": "m-moran@hotmail.es",
-        "grupo": "Yanelis",
-        "id": 51,
-        "dedicacion": "Part-time",
-        "nacionalidad": "Española",
-        "localidad": "Toques"
-    },
-    {
-        "nombre": "Paula San José Martín",
-        "email": "paulasanjosemartin@gmail.com",
-        "grupo": "Yanelis",
-        "id": 51,
-        "dedicacion": "Part-time",
-        "nacionalidad": "Española",
-        "localidad": "Valladolid"
-    },
-    {
-        "nombre": "Sandra García Hervas",
-        "email": "sandra_13_c70@hotmail.com",
-        "grupo": "Yanelis",
-        "id": 51,
-        "dedicacion": "Part-time",
-        "nacionalidad": "Española",
-        "localidad": "Coslada"
-    },
-    {
-        "nombre": "Sandra Gonzalez Iglesias",
-        "email": "sandra.sgisgi@gmail.com",
-        "grupo": "Yanelis",
-        "id": 51,
-        "dedicacion": "Part-time",
-        "nacionalidad": "Española",
-        "localidad": "Madrid"
-    },
-    {
-        "nombre": "Sandra Marín Fernández",
-        "email": "smarinfernan@gmail.com",
-        "grupo": "Yanelis",
-        "id": 51,
-        "dedicacion": "Part-time",
-        "nacionalidad": "Española",
-        "localidad": "Valencia"
-    },
-    {
-        "nombre": "Sara de Miguel Alepuz",
-        "email": "saralepuz@gmail.com",
-        "grupo": "Yanelis",
-        "id": 51,
-        "dedicacion": "Part-time",
-        "nacionalidad": "Española",
-        "localidad": "Pallejà"
-    },
-    {
-        "nombre": "Seila Cuartero Pérez",
-        "email": "seycuartero@gmail.com",
-        "grupo": "Yanelis",
-        "id": 51,
-        "dedicacion": "Part-time",
-        "nacionalidad": "Española",
-        "localidad": "Zaragoza"
-    },
-    {
-        "nombre": "Sonia Gonzalez Goncalves",
-        "email": "soni24pola@hotmail.com",
-        "grupo": "Yanelis",
-        "id": 51,
-        "dedicacion": "Part-time",
-        "nacionalidad": "Española",
-        "localidad": "POLA DE LENA"
-    },
-    {
-        "nombre": "Vanessa Puga Pérez",
-        "email": "vanessapugaperez@gmail.com",
-        "grupo": "Yanelis",
-        "id": 51,
-        "dedicacion": "Part-time",
-        "nacionalidad": "Española",
-        "localidad": "28025"
-    },
-    {
-        "nombre": "Yolanda Tuñón Ingrain",
-        "email": "yolandatuin@gmail.com",
-        "grupo": "Yanelis",
-        "id": 51,
-        "dedicacion": "Part-time",
-        "nacionalidad": "Española",
-        "localidad": "Terrassa"
-    }
+  {
+    "nombre": "Angélica Gozálvez Huertas",
+    "email": "angelicagh87@gmail.com",
+    "grupo": "Yanelis",
+    "id": 51,
+    "dedicacion": "Part-time",
+    "nacionalidad": "Española",
+    "localidad": "Aguadulce",
+    "tecnologías": []
+  },
+  {
+    "nombre": "Chiara Cusi",
+    "email": "cusichia@gmail.com",
+    "grupo": "Yanelis",
+    "id": 51,
+    "dedicacion": "Part-time",
+    "nacionalidad": "Italiana",
+    "localidad": "Barcelona",
+    "tecnologías": []
+  },
+  {
+    "nombre": "Clàudia Pintos Relat",
+    "email": "clauprelat@gmail.com",
+    "grupo": "Yanelis",
+    "id": 51,
+    "dedicacion": "Part-time",
+    "nacionalidad": "Española",
+    "localidad": "Barcelona",
+    "tecnologías": []
+  },
+  {
+    "nombre": "Joana Maria Gomes Nunes",
+    "email": "joananunes33@gmail.com",
+    "grupo": "Yanelis",
+    "id": 51,
+    "dedicacion": "Part-time",
+    "nacionalidad": "Portuguesa",
+    "localidad": "Braga",
+    "tecnologías": []
+  },
+  {
+    "nombre": "Josune Morales Arrieta",
+    "email": "josune.mo@gmail.com",
+    "grupo": "Yanelis",
+    "id": 51,
+    "dedicacion": "Part-time",
+    "nacionalidad": "Española",
+    "localidad": "Madrid",
+    "tecnologías": []
+  },
+  {
+    "nombre": "Laura Lobos Montañés",
+    "email": "laurawlobos@gmail.com",
+    "grupo": "Yanelis",
+    "id": 51,
+    "dedicacion": "Part-time",
+    "nacionalidad": "Española",
+    "localidad": "madrid",
+    "tecnologías": []
+  },
+  {
+    "nombre": "Lucía Carballo Castrillo",
+    "email": "lulucarcas98@gmail.com",
+    "grupo": "Yanelis",
+    "id": 51,
+    "dedicacion": "Part-time",
+    "nacionalidad": "Española",
+    "localidad": "Madrid",
+    "tecnologías": []
+  },
+  {
+    "nombre": "Macarena Marquez Pacheco",
+    "email": "makkss.5293@gmail.com",
+    "grupo": "Yanelis",
+    "id": 51,
+    "dedicacion": "Part-time",
+    "nacionalidad": "Española",
+    "localidad": "El Puerto de Santa Maria",
+    "tecnologías": []
+  },
+  {
+    "nombre": "Marina Boyano González",
+    "email": "marina.boyano.gonzalez@gmail.com",
+    "grupo": "Yanelis",
+    "id": 51,
+    "dedicacion": "Part-time",
+    "nacionalidad": "Española",
+    "localidad": "Mejorada del Campo",
+    "tecnologías": []
+  },
+  {
+    "nombre": "Montserrat Moran Ribas",
+    "email": "m-moran@hotmail.es",
+    "grupo": "Yanelis",
+    "id": 51,
+    "dedicacion": "Part-time",
+    "nacionalidad": "Española",
+    "localidad": "Toques",
+    "tecnologías": []
+  },
+  {
+    "nombre": "Paula San José Martín",
+    "email": "paulasanjosemartin@gmail.com",
+    "grupo": "Yanelis",
+    "id": 51,
+    "dedicacion": "Part-time",
+    "nacionalidad": "Española",
+    "localidad": "Valladolid",
+    "tecnologías": []
+  },
+  {
+    "nombre": "Sandra García Hervas",
+    "email": "sandra_13_c70@hotmail.com",
+    "grupo": "Yanelis",
+    "id": 51,
+    "dedicacion": "Part-time",
+    "nacionalidad": "Española",
+    "localidad": "Coslada",
+    "tecnologías": []
+  },
+  {
+    "nombre": "Sandra Gonzalez Iglesias",
+    "email": "sandra.sgisgi@gmail.com",
+    "grupo": "Yanelis",
+    "id": 51,
+    "dedicacion": "Part-time",
+    "nacionalidad": "Española",
+    "localidad": "Madrid",
+    "tecnologías": []
+  },
+  {
+    "nombre": "Sandra Marín Fernández",
+    "email": "smarinfernan@gmail.com",
+    "grupo": "Yanelis",
+    "id": 51,
+    "dedicacion": "Part-time",
+    "nacionalidad": "Española",
+    "localidad": "Valencia",
+    "tecnologías": []
+  },
+  {
+    "nombre": "Sara de Miguel Alepuz",
+    "email": "saralepuz@gmail.com",
+    "grupo": "Yanelis",
+    "id": 51,
+    "dedicacion": "Part-time",
+    "nacionalidad": "Española",
+    "localidad": "Pallejà",
+    "tecnologías": []
+  },
+  {
+    "nombre": "Seila Cuartero Pérez",
+    "email": "seycuartero@gmail.com",
+    "grupo": "Yanelis",
+    "id": 51,
+    "dedicacion": "Part-time",
+    "nacionalidad": "Española",
+    "localidad": "Zaragoza",
+    "tecnologías": []
+  },
+  {
+    "nombre": "Sonia Gonzalez Goncalves",
+    "email": "soni24pola@hotmail.com",
+    "grupo": "Yanelis",
+    "id": 51,
+    "dedicacion": "Part-time",
+    "nacionalidad": "Española",
+    "localidad": "POLA DE LENA",
+    "tecnologías": []
+  },
+  {
+    "nombre": "Vanessa Puga Pérez",
+    "email": "vanessapugaperez@gmail.com",
+    "grupo": "Yanelis",
+    "id": 51,
+    "dedicacion": "Part-time",
+    "nacionalidad": "Española",
+    "localidad": "28025",
+    "tecnologías": []
+  },
+  {
+    "nombre": "Yolanda Tuñón Ingrain",
+    "email": "yolandatuin@gmail.com",
+    "grupo": "Yanelis",
+    "id": 51,
+    "dedicacion": "Part-time",
+    "nacionalidad": "Española",
+    "localidad": "Terrassa",
+    "tecnologías": []
+  }
 ]
