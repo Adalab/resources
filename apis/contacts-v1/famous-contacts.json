@@ -1,0 +1,179 @@
+[
+  {
+    "id": "0196b106-85ee-70bb-84aa-d2d2edd6275f",
+    "nombre": "Malala",
+    "apellido": "Yousafzai",
+    "pais": "Pakistán",
+    "profesion": "Activista por la educación",
+    "contacto": {
+      "email": "m.yousafzai@email.com",
+      "telefono": "+92 555 944 393"
+    },
+    "fecha_cumpleaños": "12-07-1997",
+    "premios": [
+      "Premio Nobel de la Paz",
+      "Premio Sájarov",
+      "Premio Simone de Beauvoir"
+    ]
+  },
+  {
+    "id": "0196b106-b2e3-7b7e-9059-c2845403131f",
+    "nombre": "Rosalía",
+    "apellido": "Vila Tobella",
+    "pais": "España",
+    "profesion": "Cantante y compositora",
+    "contacto": {
+      "email": "la.rosalia@rosalia.com",
+      "telefono": "+34 555 393 200",
+      "instagram": "https://www.instagram.com/rosalia.vt/",
+      "twitter": "https://x.com/rosalia"
+    },
+    "fecha_cumpleaños": "25-09-1992",
+    "premios": [
+      "Grammy",
+      "Grammy Latino",
+      "Premio Goya a Mejor Canción Original",
+      "MTV Video Music Award"
+    ]
+  },
+  {
+    "id": "0196b106-d140-756f-8458-cf6726a8050f",
+    "nombre": "Emma",
+    "apellido": "Watson",
+    "pais": "Reino Unido",
+    "profesion": "Actriz y activista",
+    "contacto": {
+      "email": "contact@emmawatsonofficial.com",
+      "telefono": "+44 555 2915789 2093232 3",
+      "instagram": "https://www.instagram.com/emmawatson/"
+    },
+    "fecha_cumpleaños": "15-04-1990",
+    "premios": [
+      "Embajadora de Buena Voluntad de ONU Mujeres",
+      "MTV Movie Award",
+      "British Fashion Award"
+    ]
+  },
+  {
+    "id": "0196b107-d363-78e7-a1e5-a77e5542f4fe",
+    "nombre": "Chimamanda Ngozi",
+    "apellido": "Adichie",
+    "pais": "Nigeria",
+    "profesion": "Escritora",
+    "contacto": {
+      "email": "chimamanda.ngozi.adichie@chimamanda.com",
+      "telefono": "+234 555 94 945",
+      "twitter": "https://x.com/ChimamandaReal"
+    },
+    "fecha_cumpleaños": "15-09-1977",
+    "premios": [
+      "Premio Orange de Ficción",
+      "National Book Critics Circle Award",
+      "Premio Baileys"
+    ]
+  },
+  {
+    "id": "0196b107-c1d7-799c-8f3f-204b043ab8f5",
+    "nombre": "Alexandria",
+    "apellido": "Ocasio-Cortez",
+    "pais": "Estados Unidos",
+    "profesion": "Política",
+    "contacto": {
+      "email": "ocasio-cortez@house.gov",
+      "telefono": "+1 555 693 493"
+    },
+    "fecha_cumpleaños": "13-10-1989",
+    "premios": ["Time 100 Next", "Civic Leadership Award"]
+  },
+  {
+    "id": "0196b107-b01b-7677-8d0d-4305cb3fffa5",
+    "nombre": "Greta",
+    "apellido": "Thunberg",
+    "pais": "Suecia",
+    "profesion": "Activista medioambiental",
+    "contacto": {
+      "email": "greta@fridaysforfuture.org",
+      "telefono": "+46 555 3292 2939"
+    },
+    "fecha_cumpleaños": "03-01-2003",
+    "premios": [
+      "Premio Right Livelihood",
+      "Time Person of the Year",
+      "Premio Gulbenkian para la Humanidad"
+    ]
+  },
+  {
+    "id": "0196b107-9683-7b86-b963-d8ae05c2fe53",
+    "nombre": "Angela",
+    "apellido": "Davis",
+    "pais": "Estados Unidos",
+    "profesion": "Filósofa y activista política",
+    "contacto": {
+      "email": null,
+      "telefono": "+1 555 303 293"
+    },
+    "fecha_cumpleaños": "26-01-1944",
+    "premios": [
+      "Premio Lenin de la Paz",
+      "Premio Thomas Merton",
+      "Doctorados Honoris Causa de múltiples universidades"
+    ]
+  },
+  {
+    "id": "0196b107-7b47-775a-bd05-55903e1e70be",
+    "nombre": "Brad",
+    "apellido": "Pitt",
+    "pais": "Estados Unidos",
+    "profesion": "Actor y productor",
+    "contacto": {
+      "email": null,
+      "telefono": "+1 555 392 201"
+    },
+    "fecha_cumpleaños": "18-12-1963",
+    "premios": [
+      "Oscar al Mejor Actor de Reparto",
+      "Globo de Oro",
+      "BAFTA",
+      "Premio del Sindicato de Actores"
+    ]
+  },
+  {
+    "id": "0196b107-670a-73fb-b136-4b7893b7e642",
+    "nombre": "Leonardo",
+    "apellido": "DiCaprio",
+    "pais": "Estados Unidos",
+    "profesion": "Actor y activista medioambiental",
+    "contacto": {
+      "email": "me@leonardodicaprio.com",
+      "telefono": "+1 555 953 206"
+    },
+    "fecha_cumpleaños": "11-11-1974",
+    "premios": [
+      "Oscar al Mejor Actor",
+      "Globo de Oro",
+      "BAFTA",
+      "Premio del Sindicato de Actores"
+    ]
+  },
+  {
+    "id": "0196b107-5300-777d-95df-21e11fdc8e6b",
+    "nombre": "Shakira",
+    "apellido": "Mebarak",
+    "pais": "Colombia",
+    "profesion": "Cantante y compositora",
+    "contacto": {
+      "email": "personal@shakira.com",
+      "telefono": "+1 555 302 045",
+      "instagram": "https://www.instagram.com/shakira/",
+      "twitter": "https://x.com/shakira"
+    },
+    "fecha_cumpleaños": "02-02-1977",
+    "premios": [
+      "Grammy",
+      "Grammy Latino",
+      "Billboard Music Award",
+      "MTV Video Music Award",
+      "Estrella en el Paseo de la Fama de Hollywood"
+    ]
+  }
+]
