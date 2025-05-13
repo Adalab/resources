@@ -1,962 +1,242 @@
 [
-  {
-    "id": 1,
-    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-    "price": 109.95,
-    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-    "rating": {
-      "rate": 3.9,
-      "count": 120
-    }
-  },
-  {
-    "id": 2,
-    "title": "Mens Casual Premium Slim Fit T-Shirts ",
-    "price": 22.3,
-    "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
-    "rating": {
-      "rate": 4.1,
-      "count": 259
-    }
-  },
-  {
-    "id": 3,
-    "title": "Mens Cotton Jacket",
-    "price": 55.99,
-    "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
-    "rating": {
-      "rate": 4.7,
-      "count": 500
-    }
-  },
-  {
-    "id": 4,
-    "title": "Mens Casual Slim Fit",
-    "price": 15.99,
-    "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
-    "rating": {
-      "rate": 2.1,
-      "count": 430
-    }
-  },
-  {
-    "id": 5,
-    "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
-    "price": 695,
-    "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
-    "rating": {
-      "rate": 4.6,
-      "count": 400
-    }
-  },
-  {
-    "id": 6,
-    "title": "Solid Gold Petite Micropave ",
-    "price": 168,
-    "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
-    "rating": {
-      "rate": 3.9,
-      "count": 70
-    }
-  },
-  {
-    "id": 7,
-    "title": "White Gold Plated Princess",
-    "price": 9.99,
-    "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
-    "rating": {
-      "rate": 3,
-      "count": 400
-    }
-  },
-  {
-    "id": 8,
-    "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
-    "price": 10.99,
-    "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
-    "rating": {
-      "rate": 1.9,
-      "count": 100
-    }
-  },
-  {
-    "id": 9,
-    "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
-    "price": 64,
-    "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user\u2019s hardware configuration and operating system",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
-    "rating": {
-      "rate": 3.3,
-      "count": 203
-    }
-  },
-  {
-    "id": 10,
-    "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
-    "price": 109,
-    "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5\u201d hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
-    "rating": {
-      "rate": 2.9,
-      "count": 470
-    }
-  },
-  {
-    "id": 11,
-    "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
-    "price": 109,
-    "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
-    "rating": {
-      "rate": 4.8,
-      "count": 319
-    }
-  },
-  {
-    "id": 12,
-    "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
-    "price": 114,
-    "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
-    "rating": {
-      "rate": 4.8,
-      "count": 400
-    }
-  },
-  {
-    "id": 13,
-    "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
-    "price": 599,
-    "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
-    "rating": {
-      "rate": 2.9,
-      "count": 250
-    }
-  },
-  {
-    "id": 14,
-    "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) \u2013 Super Ultrawide Screen QLED ",
-    "price": 999.99,
-    "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
-    "rating": {
-      "rate": 2.2,
-      "count": 140
-    }
-  },
-  {
-    "id": 15,
-    "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
-    "price": 56.99,
-    "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
-    "rating": {
-      "rate": 2.6,
-      "count": 235
-    }
-  },
-  {
-    "id": 16,
-    "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
-    "price": 29.95,
-    "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
-    "rating": {
-      "rate": 2.9,
-      "count": 340
-    }
-  },
-  {
-    "id": 17,
-    "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
-    "price": 39.99,
-    "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
-    "rating": {
-      "rate": 3.8,
-      "count": 679
-    }
-  },
-  {
-    "id": 18,
-    "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
-    "price": 9.85,
-    "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
-    "rating": {
-      "rate": 4.7,
-      "count": 130
-    }
-  },
-  {
-    "id": 19,
-    "title": "Opna Women's Short Sleeve Moisture",
-    "price": 7.95,
-    "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
-    "rating": {
-      "rate": 4.5,
-      "count": 146
-    }
-  },
-  {
-    "id": 20,
-    "title": "DANVOUY Womens T Shirt Casual Cotton Short",
-    "price": 12.99,
-    "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
-    "rating": {
-      "rate": 3.6,
-      "count": 145
-    }
-  },
-  {
-    "id": 21,
-    "title": "Optimized mission-critical adapter",
-    "price": 832.9,
-    "description": "Top decide hand tough throw. Likely in pattern mention choose debate knowledge. Me across machine.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
-    "rating": {
-      "rate": 3.6,
-      "count": 163
-    }
-  },
-  {
-    "id": 22,
-    "title": "Inverse client-driven collaboration",
-    "price": 88.16,
-    "description": "Concern phone page live election. Memory into want son. Investment education several choose chair of.",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
-    "rating": {
-      "rate": 1.0,
-      "count": 20
-    }
-  },
-  {
-    "id": 23,
-    "title": "Optimized secondary model",
-    "price": 517.6,
-    "description": "Building different issue fill. Activity road fly your child executive data. North push crime reflect social affect ground.",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
-    "rating": {
-      "rate": 1.1,
-      "count": 415
-    }
-  },
-  {
-    "id": 24,
-    "title": "Persistent non-volatile protocol",
-    "price": 538.46,
-    "description": "Head want region service card instead. Leader almost respond land message toward worker.",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
-    "rating": {
-      "rate": 1.0,
-      "count": 820
-    }
-  },
-  {
-    "id": 25,
-    "title": "Optimized client-server knowledge user",
-    "price": 128.94,
-    "description": "Several plan age sea alone trial order only. Poor somebody push require everything heart.\nReceive family movement political high.",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
-    "rating": {
-      "rate": 4.2,
-      "count": 455
-    }
-  },
-  {
-    "id": 26,
-    "title": "Quality-focused heuristic focus group",
-    "price": 316.17,
-    "description": "General agent culture watch end discover to. Human out effect analysis other himself if. Night ever region.",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
-    "rating": {
-      "rate": 2.8,
-      "count": 933
-    }
-  },
-  {
-    "id": 27,
-    "title": "Optional optimal capacity",
-    "price": 244.05,
-    "description": "Easy artist maybe hour second. Involve leg surface eight room. Hot throughout development offer.\nPopular into impact civil really avoid front.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
-    "rating": {
-      "rate": 3.1,
-      "count": 218
-    }
-  },
-  {
-    "id": 28,
-    "title": "Stand-alone holistic process improvement",
-    "price": 129.17,
-    "description": "Agency order clear down must go strategy. Better so key give large tonight exist. One hospital matter turn land crime.",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
-    "rating": {
-      "rate": 2.3,
-      "count": 180
-    }
-  },
-  {
-    "id": 29,
-    "title": "Integrated local intranet",
-    "price": 965.47,
-    "description": "Morning take staff however. Appear score price tree often future better. Require drop same national various allow life. Difficult food station hand reduce base by remain.",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
-    "rating": {
-      "rate": 2.0,
-      "count": 802
-    }
-  },
-  {
-    "id": 30,
-    "title": "Reverse-engineered mobile structure",
-    "price": 17.86,
-    "description": "Every music hand late ok political positive. Company traditional if pressure.\nHour nor picture red record likely worry. Part turn serve respond hear year that. Stock so citizen explain well matter.",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
-    "rating": {
-      "rate": 4.1,
-      "count": 34
-    }
-  },
-  {
-    "id": 31,
-    "title": "Focused clear-thinking model",
-    "price": 199.57,
-    "description": "Actually these on common TV. Place everybody consider business. Ok although amount meet community reduce stage.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
-    "rating": {
-      "rate": 4.1,
-      "count": 456
-    }
-  },
-  {
-    "id": 32,
-    "title": "Programmable system-worthy orchestration",
-    "price": 275.54,
-    "description": "Half cell west specific join. Enjoy five face good rather head able hospital. Yes even hear bar in go factor.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
-    "rating": {
-      "rate": 4.8,
-      "count": 309
-    }
-  },
-  {
-    "id": 33,
-    "title": "Open-source static Local Area Network",
-    "price": 33.25,
-    "description": "Light drop prove color generation organization would Congress. A result senior customer she knowledge difference term. Career throw nothing war. Training water word list short nice.",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
-    "rating": {
-      "rate": 1.5,
-      "count": 998
-    }
-  },
-  {
-    "id": 34,
-    "title": "Total encompassing implementation",
-    "price": 87.07,
-    "description": "Land our experience two. Themselves result something let rise I impact.\nLight on both interest thus sort. Serious action interview stuff. Story traditional detail.",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
-    "rating": {
-      "rate": 4.7,
-      "count": 410
-    }
-  },
-  {
-    "id": 35,
-    "title": "Advanced next generation installation",
-    "price": 194.81,
-    "description": "Me doctor successful head carry. Not standard degree relate head.\nNewspaper investment never. Prevent various brother quite talk artist career feeling.",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
-    "rating": {
-      "rate": 2.8,
-      "count": 615
-    }
-  },
-  {
-    "id": 36,
-    "title": "Front-line homogeneous framework",
-    "price": 769.16,
-    "description": "Alone research he full seven. Billion century important mother a plant where relationship. Return always least room stand particular audience.",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
-    "rating": {
-      "rate": 4.2,
-      "count": 301
-    }
-  },
-  {
-    "id": 37,
-    "title": "Assimilated 24hour forecast",
-    "price": 797.51,
-    "description": "Relationship reason strategy cause. Heavy change generation Congress but fast clearly. White employee adult.\nMagazine trial occur black carry method about.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
-    "rating": {
-      "rate": 1.3,
-      "count": 785
-    }
-  },
-  {
-    "id": 38,
-    "title": "Open-source asynchronous parallelism",
-    "price": 612.17,
-    "description": "Success protect form economy weight ability down east. Wrong any message ask. Hand meeting year left senior plan production later.\nAway western cell interesting.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
-    "rating": {
-      "rate": 3.1,
-      "count": 353
-    }
-  },
-  {
-    "id": 39,
-    "title": "Customer-focused optimizing pricing structure",
-    "price": 967.72,
-    "description": "Pm good movement recent figure energy. State health customer budget home music.\nPolitics understand whom worry professor stuff its. Senior democratic from design agree sound.",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
-    "rating": {
-      "rate": 2.5,
-      "count": 911
-    }
-  },
-  {
-    "id": 40,
-    "title": "Object-based tertiary customer loyalty",
-    "price": 247.65,
-    "description": "Quickly allow federal. Democratic point newspaper win smile attorney affect.\nWhose yard ok on where. Training keep represent unit. Find matter open need air even machine model.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
-    "rating": {
-      "rate": 2.6,
-      "count": 110
-    }
-  },
-  {
-    "id": 41,
-    "title": "Object-based contextually-based installation",
-    "price": 167.63,
-    "description": "Night bad American range example half can. Politics memory current sound.\nImprove large coach management huge store when. People great draw order talk economic painting.",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
-    "rating": {
-      "rate": 1.5,
-      "count": 288
-    }
-  },
-  {
-    "id": 42,
-    "title": "Organic 6thgeneration productivity",
-    "price": 37.66,
-    "description": "Girl ever bag.\nCreate from plant serious senior learn. Program become anyone popular realize. Realize try Democrat hotel bed image.",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
-    "rating": {
-      "rate": 4.9,
-      "count": 625
-    }
-  },
-  {
-    "id": 43,
-    "title": "Expanded context-sensitive capability",
-    "price": 774.1,
-    "description": "Win score rock feeling physical. Firm lose bank tough outside seem. Collection natural direction action.",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
-    "rating": {
-      "rate": 1.5,
-      "count": 634
-    }
-  },
-  {
-    "id": 44,
-    "title": "Visionary interactive initiative",
-    "price": 408.54,
-    "description": "Rise field performance partner process. Fill break move brother.\nForce Republican PM bar true. How Democrat society with avoid simple party claim.",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
-    "rating": {
-      "rate": 2.4,
-      "count": 589
-    }
-  },
-  {
-    "id": 45,
-    "title": "Innovative upward-trending collaboration",
-    "price": 675.33,
-    "description": "Information his result budget. Minute card newspaper design strategy mission. Meeting bed accept safe.",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
-    "rating": {
-      "rate": 3.5,
-      "count": 812
-    }
-  },
-  {
-    "id": 46,
-    "title": "Front-line background alliance",
-    "price": 666.98,
-    "description": "Two reflect almost financial job close opportunity. Best interesting read number we offer effect. Gun daughter yet democratic pass listen.\nBack free market door father once. Next staff tell.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
-    "rating": {
-      "rate": 3.4,
-      "count": 394
-    }
-  },
-  {
-    "id": 47,
-    "title": "Team-oriented global project",
-    "price": 16.91,
-    "description": "Perhaps enjoy event beyond success. Ok official billion career. Set century though ball including scientist particular.",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
-    "rating": {
-      "rate": 4.6,
-      "count": 906
-    }
-  },
-  {
-    "id": 48,
-    "title": "Expanded national paradigm",
-    "price": 933.21,
-    "description": "Go to rock policy poor. Side eye door relate let budget present someone. Marriage cup brother assume later their.",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
-    "rating": {
-      "rate": 2.7,
-      "count": 285
-    }
-  },
-  {
-    "id": 49,
-    "title": "Operative heuristic parallelism",
-    "price": 488.46,
-    "description": "Box party plan. Onto information again speak become nature. Research friend book police country.\nSee song direction poor real glass hair pass. Apply parent defense strategy.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
-    "rating": {
-      "rate": 1.0,
-      "count": 278
-    }
-  },
-  {
-    "id": 50,
-    "title": "Seamless zero tolerance strategy",
-    "price": 147.63,
-    "description": "Technology conference nearly management individual. Operation nice foreign. Oil paper PM gun. Determine only mouth ok food letter.\nMarriage blood computer. Ago attorney explain network.",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
-    "rating": {
-      "rate": 4.9,
-      "count": 324
-    }
-  },
-  {
-    "id": 51,
-    "title": "Up-sized maximized superstructure",
-    "price": 656.7,
-    "description": "Ever former six almost beautiful. Include each couple five particularly she begin discussion. Role south happen tonight wind less visit.\nSee former present true shake get down.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
-    "rating": {
-      "rate": 3.2,
-      "count": 733
-    }
-  },
-  {
-    "id": 52,
-    "title": "Integrated value-added standardization",
-    "price": 561.52,
-    "description": "Factor owner customer person represent late stop.\nData adult single I. Security attorney appear order.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
-    "rating": {
-      "rate": 3.2,
-      "count": 646
-    }
-  },
-  {
-    "id": 53,
-    "title": "Operative well-modulated portal",
-    "price": 855.77,
-    "description": "Mrs lot across own heart him. Mind capital central.\nWin during industry back former whose. Scene under better quickly.",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
-    "rating": {
-      "rate": 4.0,
-      "count": 117
-    }
-  },
-  {
-    "id": 54,
-    "title": "Networked executive projection",
-    "price": 158.81,
-    "description": "Whom add have shake center leave structure. Choose dark offer. Machine try democratic hotel cause minute rock candidate. Force customer with administration hear.",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
-    "rating": {
-      "rate": 2.3,
-      "count": 654
-    }
-  },
-  {
-    "id": 55,
-    "title": "Optimized object-oriented secured line",
-    "price": 689.89,
-    "description": "Imagine enjoy responsibility to space together gun out. Likely spend but enjoy forget occur. Necessary job else know energy affect.\nHelp interview letter two what before it.",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
-    "rating": {
-      "rate": 4.4,
-      "count": 754
-    }
-  },
-  {
-    "id": 56,
-    "title": "Future-proofed neutral model",
-    "price": 461.92,
-    "description": "Field agent save face condition although such.\nGlass government player suddenly. Positive they arm only morning civil account. Name worker single entire teacher head shake.",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
-    "rating": {
-      "rate": 2.8,
-      "count": 97
-    }
-  },
-  {
-    "id": 57,
-    "title": "Cross-platform value-added support",
-    "price": 763.18,
-    "description": "Increase few within. Series wall area police trip population tax.\nUse community mother financial turn board. Room team better series. Behavior represent someone trouble.",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
-    "rating": {
-      "rate": 3.9,
-      "count": 859
-    }
-  },
-  {
-    "id": 58,
-    "title": "Self-enabling 6thgeneration productivity",
-    "price": 979.78,
-    "description": "So total occur safe response single child. Region somebody born.\nCouple might reach near and sound local. Rather born into wish character.",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
-    "rating": {
-      "rate": 4.7,
-      "count": 634
-    }
-  },
-  {
-    "id": 59,
-    "title": "Function-based multimedia paradigm",
-    "price": 916.23,
-    "description": "Another type address. Best remain Mr daughter.\nWithin ability usually doctor shake always.\nBehind style billion garden or data. Various public reveal history.",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
-    "rating": {
-      "rate": 1.8,
-      "count": 142
-    }
-  },
-  {
-    "id": 60,
-    "title": "Programmable cohesive flexibility",
-    "price": 794.1,
-    "description": "Little room college enough fine economic man oil. Admit soon term cup happy authority.\nCheck environment service team. Allow debate artist during meeting industry personal democratic.",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
-    "rating": {
-      "rate": 2.7,
-      "count": 238
-    }
-  },
-  {
-    "id": 61,
-    "title": "Seamless empowering flexibility",
-    "price": 50.35,
-    "description": "Day explain conference table relate rather. Half you mother represent.\nProperty health cup material occur area several simply. Find different animal meeting human read. Worry contain your sure work.",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
-    "rating": {
-      "rate": 3.2,
-      "count": 735
-    }
-  },
-  {
-    "id": 62,
-    "title": "Optimized modular product",
-    "price": 136.97,
-    "description": "Citizen or check upon report. Well view half discussion science. Strong hit writer lose compare five gun.",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
-    "rating": {
-      "rate": 1.2,
-      "count": 715
-    }
-  },
-  {
-    "id": 63,
-    "title": "Public-key intangible extranet",
-    "price": 969.57,
-    "description": "Public smile loss turn class. Fact prove trip statement. Last require behavior just.\nTogether capital matter happy represent order become. Appear gas dinner month describe short.",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
-    "rating": {
-      "rate": 4.7,
-      "count": 97
-    }
-  },
-  {
-    "id": 64,
-    "title": "Reactive executive analyzer",
-    "price": 417.01,
-    "description": "Simply under often treat send early among. Sometimes indicate cover including picture.\nArgue recognize bag sit surface. Doctor effect structure large PM. Fish democratic feeling also that hope.",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
-    "rating": {
-      "rate": 1.6,
-      "count": 680
-    }
-  },
-  {
-    "id": 65,
-    "title": "Quality-focused stable productivity",
-    "price": 967.96,
-    "description": "Everything example improve. Blood foot outside democratic soldier choice.\nEspecially open development. Within history majority how. Protect moment successful goal account.",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
-    "rating": {
-      "rate": 3.9,
-      "count": 350
-    }
-  },
-  {
-    "id": 66,
-    "title": "Implemented demand-driven budgetary management",
-    "price": 524.21,
-    "description": "Research message deal city cover open. His house finally mother final new.\nSomeone few mind. Manage difference method environment body key.",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
-    "rating": {
-      "rate": 2.1,
-      "count": 67
-    }
-  },
-  {
-    "id": 67,
-    "title": "Front-line background website",
-    "price": 288.23,
-    "description": "Develop thing happen pressure cut. Raise against Mr interesting sort issue pay industry.",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
-    "rating": {
-      "rate": 4.7,
-      "count": 719
-    }
-  },
-  {
-    "id": 68,
-    "title": "Open-source secondary info-mediaries",
-    "price": 899.08,
-    "description": "Political event prepare. Scene social environment report future parent keep.\nBoard pay watch lay walk you memory. Picture big name black father where find.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
-    "rating": {
-      "rate": 3.6,
-      "count": 38
-    }
-  },
-  {
-    "id": 69,
-    "title": "Organized responsive process improvement",
-    "price": 785.83,
-    "description": "Before visit citizen stop during newspaper property college. Whatever maybe risk gun talk. Manager others suggest suffer per everybody including.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
-    "rating": {
-      "rate": 2.9,
-      "count": 299
-    }
-  },
-  {
-    "id": 70,
-    "title": "Organized eco-centric monitoring",
-    "price": 787.9,
-    "description": "School list analysis act. House administration discuss my deep. Couple decade than break turn.\nSocial way beat animal past reduce. Seem charge appear Mr this. Like cell special.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
-    "rating": {
-      "rate": 2.3,
-      "count": 638
-    }
-  },
-  {
-    "id": 71,
-    "title": "Devolved cohesive array",
-    "price": 690.38,
-    "description": "Onto article research either else agree. Money conference also space. Growth floor investment pressure marriage program.\nEach decision life child popular. Law history federal food happy.",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-    "rating": {
-      "rate": 3.2,
-      "count": 585
-    }
-  },
-  {
-    "id": 72,
-    "title": "Phased homogeneous protocol",
-    "price": 266.16,
-    "description": "Performance three management near room. Base miss prepare thank full difference tree. Teacher movement prevent sign church.",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
-    "rating": {
-      "rate": 1.2,
-      "count": 794
-    }
-  },
-  {
-    "id": 73,
-    "title": "Ergonomic empowering framework",
-    "price": 935.99,
-    "description": "White turn song magazine. Decade visit race half Mr staff goal. Or me how all.\nView for truth camera. Expert PM popular specific across.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
-    "rating": {
-      "rate": 1.2,
-      "count": 209
-    }
-  },
-  {
-    "id": 74,
-    "title": "Pre-emptive context-sensitive architecture",
-    "price": 734.08,
-    "description": "These simply law include project. Government what may finish. Reach key some human name though.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
-    "rating": {
-      "rate": 1.9,
-      "count": 566
-    }
-  },
-  {
-    "id": 75,
-    "title": "Self-enabling background functionalities",
-    "price": 539.21,
-    "description": "Enough personal value perform. Look detail its wait. Safe itself according cut and hot.\nBenefit score their wall religious wide understand. Miss role form part she painting. Year contain us rest.",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
-    "rating": {
-      "rate": 3.5,
-      "count": 70
-    }
-  },
-  {
-    "id": 76,
-    "title": "User-friendly reciprocal portal",
-    "price": 557.14,
-    "description": "Bill establish toward yard weight. Down simple security.\nDark specific student step forget debate born could. Knowledge political trouble leave.",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
-    "rating": {
-      "rate": 1.5,
-      "count": 474
-    }
-  },
-  {
-    "id": 77,
-    "title": "Multi-tiered solution-oriented function",
-    "price": 954.29,
-    "description": "Upon contain word resource public. Sure key others because message pattern.\nFilm just better third. Prepare street save law.\nDecide nothing star get can surface. Question one choose car finish role.",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
-    "rating": {
-      "rate": 2.8,
-      "count": 970
-    }
-  },
-  {
-    "id": 78,
-    "title": "Multi-channeled user-facing strategy",
-    "price": 941.25,
-    "description": "As wrong few able with relationship fill. Others themselves share positive arm method end.\nAmount some concern respond baby family. Position country exist during product lay.",
-    "category": "electronics",
-    "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
-    "rating": {
-      "rate": 1.9,
-      "count": 940
-    }
-  },
-  {
-    "id": 79,
-    "title": "Operative multi-state archive",
-    "price": 274.46,
-    "description": "Central bag reach better past stay I agree. Step television standard decision part.\nTelevision edge light same anyone. Hand interesting find traditional officer age.",
-    "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
-    "rating": {
-      "rate": 2.6,
-      "count": 325
-    }
-  },
-  {
-    "id": 80,
-    "title": "Cross-platform empowering service-desk",
-    "price": 930.39,
-    "description": "Might provide network theory receive night. Politics she few marriage other street learn.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
-    "rating": {
-      "rate": 4.9,
-      "count": 826
-    }
-  }
+{
+"id": 1,
+"title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+"price": 109.95,
+"description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+"category": "men's clothing",
+"image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+"rating": {
+"rate": 3.9,
+"count": 120
+}
+},
+{
+"id": 2,
+"title": "Mens Casual Premium Slim Fit T-Shirts ",
+"price": 22.3,
+"description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+"category": "men's clothing",
+"image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+"rating": {
+"rate": 4.1,
+"count": 259
+}
+},
+{
+"id": 3,
+"title": "Mens Cotton Jacket",
+"price": 55.99,
+"description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+"category": "men's clothing",
+"image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+"rating": {
+"rate": 4.7,
+"count": 500
+}
+},
+{
+"id": 4,
+"title": "Mens Casual Slim Fit",
+"price": 15.99,
+"description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+"category": "men's clothing",
+"image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+"rating": {
+"rate": 2.1,
+"count": 430
+}
+},
+{
+"id": 5,
+"title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+"price": 695,
+"description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+"category": "jewelery",
+"image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+"rating": {
+"rate": 4.6,
+"count": 400
+}
+},
+{
+"id": 6,
+"title": "Solid Gold Petite Micropave ",
+"price": 168,
+"description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+"category": "jewelery",
+"image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+"rating": {
+"rate": 3.9,
+"count": 70
+}
+},
+{
+"id": 7,
+"title": "White Gold Plated Princess",
+"price": 9.99,
+"description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+"category": "jewelery",
+"image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+"rating": {
+"rate": 3,
+"count": 400
+}
+},
+{
+"id": 8,
+"title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+"price": 10.99,
+"description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+"category": "jewelery",
+"image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+"rating": {
+"rate": 1.9,
+"count": 100
+}
+},
+{
+"id": 9,
+"title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+"price": 64,
+"description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+"category": "electronics",
+"image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+"rating": {
+"rate": 3.3,
+"count": 203
+}
+},
+{
+"id": 10,
+"title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+"price": 109,
+"description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+"category": "electronics",
+"image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+"rating": {
+"rate": 2.9,
+"count": 470
+}
+},
+{
+"id": 11,
+"title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+"price": 109,
+"description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+"category": "electronics",
+"image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+"rating": {
+"rate": 4.8,
+"count": 319
+}
+},
+{
+"id": 12,
+"title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+"price": 114,
+"description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+"category": "electronics",
+"image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+"rating": {
+"rate": 4.8,
+"count": 400
+}
+},
+{
+"id": 13,
+"title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+"price": 599,
+"description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+"category": "electronics",
+"image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+"rating": {
+"rate": 2.9,
+"count": 250
+}
+},
+{
+"id": 14,
+"title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+"price": 999.99,
+"description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+"category": "electronics",
+"image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+"rating": {
+"rate": 2.2,
+"count": 140
+}
+},
+{
+"id": 15,
+"title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+"price": 56.99,
+"description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+"category": "women's clothing",
+"image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+"rating": {
+"rate": 2.6,
+"count": 235
+}
+},
+{
+"id": 16,
+"title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+"price": 29.95,
+"description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+"category": "women's clothing",
+"image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+"rating": {
+"rate": 2.9,
+"count": 340
+}
+},
+{
+"id": 17,
+"title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+"price": 39.99,
+"description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+"category": "women's clothing",
+"image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+"rating": {
+"rate": 3.8,
+"count": 679
+}
+},
+{
+"id": 18,
+"title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+"price": 9.85,
+"description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+"category": "women's clothing",
+"image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+"rating": {
+"rate": 4.7,
+"count": 130
+}
+},
+{
+"id": 19,
+"title": "Opna Women's Short Sleeve Moisture",
+"price": 7.95,
+"description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+"category": "women's clothing",
+"image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+"rating": {
+"rate": 4.5,
+"count": 146
+}
+},
+{
+"id": 20,
+"title": "DANVOUY Womens T Shirt Casual Cotton Short",
+"price": 12.99,
+"description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+"category": "women's clothing",
+"image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+"rating": {
+"rate": 3.6,
+"count": 145
+}
+}
 ]
