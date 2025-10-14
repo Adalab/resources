@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   outline: none;
   transition: opacity 0.5s;
 }
@@ -20,7 +20,23 @@ html {
 /* body */
 
 body {
-  background: linear-gradient(135deg, #fff 0%, #f1f1f1 50%, #e8e8e8 51%, #f6f6f6 100%);
+  background: linear-gradient(
+    135deg,
+    #fff 0%,
+    #f1f1f1 50%,
+    #e8e8e8 51%,
+    #f6f6f6 100%
+  );
+}
+body.darkmode {
+  background: linear-gradient(
+    135deg,
+    #3a3a3a 0%,
+    #222 50%,
+    #0a6b62 51%,
+    #0b756a 85%,
+    #099d8d 100%
+  );
 }
 
 @keyframes gradient {
@@ -70,12 +86,19 @@ body {
   color: #54585b;
 }
 
+.darkmode .subtitle {
+  color: #b8b8b8;
+}
+
 /* tasks */
 
 .tasks {
   list-style: none;
   font-size: 25px;
   color: #54585b;
+}
+.darkmode .tasks {
+  color: #b8b8b8;
 }
 
 .task {
@@ -153,7 +176,7 @@ body {
 
 .footer,
 .footer * {
-  display: inline-flexb;
+  display: flex;
   margin-right: 20px;
   font-size: 12px;
   color: #b8b8b8;
@@ -202,4 +225,11 @@ body {
   border: 0.1vh solid #ccc;
   border-radius: 0.2vh;
   font-size: 2vh;
+}
+
+@media (width > 700px) {
+  .toolbar {
+    position: absolute;
+    right: 2rem;
+  }
 }
