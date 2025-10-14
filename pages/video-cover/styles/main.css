@@ -87,7 +87,7 @@ body.darkmode {
 }
 
 .darkmode .subtitle {
-  color: #b8b8b8;
+  color: #d8d8d8;
 }
 
 /* tasks */
@@ -98,7 +98,7 @@ body.darkmode {
   color: #54585b;
 }
 .darkmode .tasks {
-  color: #b8b8b8;
+  color: #d8d8d8;
 }
 
 .task {
@@ -180,6 +180,11 @@ body.darkmode {
   margin-right: 20px;
   font-size: 12px;
   color: #b8b8b8;
+}
+
+.darkmode .footer,
+.darkmode .footer * {
+  color: #d8d8d8;
 }
 
 .logo {
