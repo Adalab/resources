@@ -1,0 +1,143 @@
+[
+  {
+    "name": "Wednesday Addams",
+    "spanishName": "Merlina Addams",
+    "nicknames": ["Wends", "Willa"],
+    "actress": "Jenna Ortega",
+    "relationship": "star",
+    "details": {
+      "age": 16,
+      "species": "Human (Psychic)",
+      "house": "Ophelia Hall"
+    },
+    "abilities": ["Psychic visions", "Intelligence", "Combat skills"],
+    "interests": ["Writing", "Cello", "Mystery solving"]
+  },
+  {
+    "name": "Gomez Addams",
+    "spanishName": "Homero Addams",
+    "nicknames": ["Mon Cher"],
+    "actor": "Luis Guzmán",
+    "relationship": "relative",
+    "details": {
+      "role": "Father",
+      "species": "Human"
+    },
+    "characteristics": ["Passionate", "Romantic", "Devoted father"]
+  },
+  {
+    "name": "Morticia Addams",
+    "spanishName": "Morticia Addams",
+    "nicknames": ["Tish", "Cara Mia"],
+    "actress": "Catherine Zeta-Jones",
+    "relationship": "relative",
+    "details": {
+      "role": "Mother",
+      "species": "Human (Psychic)"
+    },
+    "characteristics": ["Elegant", "Mysterious", "Protective"]
+  },
+  {
+    "name": "Pugsley Addams",
+    "spanishName": "Pericles Addams",
+    "nicknames": ["Pugs"],
+    "actor": "Isaac Ordonez",
+    "relationship": "relative",
+    "details": {
+      "role": "Brother",
+      "age": 10,
+      "species": "Human"
+    },
+    "interests": ["Explosives", "Experiments", "Mischief"]
+  },
+  {
+    "name": "Uncle Fester",
+    "spanishName": "Tío Lucas",
+    "nicknames": ["Fester"],
+    "actor": "Fred Armisen",
+    "relationship": "relative",
+    "details": {
+      "role": "Uncle",
+      "species": "Human"
+    },
+    "abilities": ["Electricity generation", "Eccentric inventions"]
+  },
+  {
+    "name": "Lurch",
+    "spanishName": "Largo",
+    "nicknames": [],
+    "actor": "George Burcea",
+    "relationship": "relative",
+    "details": {
+      "role": "Butler",
+      "species": "Human",
+      "height": "Very tall"
+    },
+    "characteristics": ["Loyal", "Strong", "Silent"]
+  },
+  {
+    "name": "Thing",
+    "spanishName": "Dedos",
+    "nicknames": ["Mano", "Cosa"],
+    "actor": "Victor Dorobantu",
+    "relationship": "relative",
+    "details": {
+      "species": "Disembodied hand",
+      "role": "Assistant/Companion"
+    },
+    "abilities": ["Sign language", "Mobility", "Loyalty"]
+  },
+  {
+    "name": "Grandmama",
+    "spanishName": "Abuela Hester",
+    "nicknames": ["Mamá", "Abuelita"],
+    "actress": "Joanna Lumley",
+    "relationship": "relative",
+    "details": {
+      "role": "Grandmother",
+      "species": "Human (Witch)"
+    },
+    "abilities": ["Potions", "Fortune telling", "Magic"]
+  },
+  {
+    "name": "Enid Sinclair",
+    "spanishName": "Enid Sinclair",
+    "nicknames": ["Enie"],
+    "actress": "Emma Myers",
+    "relationship": "classmate",
+    "details": {
+      "age": 16,
+      "species": "Werewolf",
+      "house": "Ophelia Hall"
+    },
+    "abilities": ["Werewolf transformation", "Enhanced senses"],
+    "characteristics": ["Colorful", "Optimistic", "Kind", "Loyal"]
+  },
+  {
+    "name": "Bianca Barclay",
+    "spanishName": "Bianca Barclay",
+    "nicknames": ["Queen Bee"],
+    "actress": "Joy Sunday",
+    "relationship": "classmate",
+    "details": {
+      "age": 17,
+      "species": "Siren",
+      "house": "Ophelia Hall"
+    },
+    "abilities": ["Siren song", "Persuasion", "Swimming"],
+    "characteristics": ["Competitive", "Complex", "Leader"]
+  },
+  {
+    "name": "Dra. Valerie Kinbott",
+    "spanishName": "Dra. Valerie Kinbott",
+    "nicknames": [],
+    "actress": "Riki Lindhome",
+    "relationship": "villager",
+    "details": {
+      "role": "Therapist",
+      "species": "Human",
+      "location": "Jericho"
+    },
+    "characteristics": ["Professional", "Caring", "Mysterious"]
+  }
+]
