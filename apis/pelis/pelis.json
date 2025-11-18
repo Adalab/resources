@@ -1,0 +1,1213 @@
+[
+    {
+        "id": 1,
+        "titulo": "The Godfather",
+        "año": 1972,
+        "duracion": 175,
+        "genero": "Crimen",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 2,
+        "titulo": "The Godfather Part II",
+        "año": 1974,
+        "duracion": 202,
+        "genero": "Crimen",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 3,
+        "titulo": "Pulp Fiction",
+        "año": 1994,
+        "duracion": 154,
+        "genero": "Crimen",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 4,
+        "titulo": "Forrest Gump",
+        "año": 1994,
+        "duracion": 142,
+        "genero": "Drama",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en",
+            "fr"
+        ]
+    },
+    {
+        "id": 5,
+        "titulo": "The Dark Knight",
+        "año": 2008,
+        "duracion": 152,
+        "genero": "Acción",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 6,
+        "titulo": "Fight Club",
+        "año": 1999,
+        "duracion": 139,
+        "genero": "Drama",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 7,
+        "titulo": "Inception",
+        "año": 2010,
+        "duracion": 148,
+        "genero": "Ciencia ficción",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en",
+            "de"
+        ]
+    },
+    {
+        "id": 8,
+        "titulo": "The Matrix",
+        "año": 1999,
+        "duracion": 136,
+        "genero": "Ciencia ficción",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 9,
+        "titulo": "The Shawshank Redemption",
+        "año": 1994,
+        "duracion": 142,
+        "genero": "Drama",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 10,
+        "titulo": "Interstellar",
+        "año": 2014,
+        "duracion": 169,
+        "genero": "Ciencia ficción",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 11,
+        "titulo": "Gladiator",
+        "año": 2000,
+        "duracion": 155,
+        "genero": "Acción",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 12,
+        "titulo": "Titanic",
+        "año": 1997,
+        "duracion": 195,
+        "genero": "Romance",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en",
+            "fr"
+        ]
+    },
+    {
+        "id": 13,
+        "titulo": "Avatar",
+        "año": 2009,
+        "duracion": 162,
+        "genero": "Ciencia ficción",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 14,
+        "titulo": "Saving Private Ryan",
+        "año": 1998,
+        "duracion": 169,
+        "genero": "Bélico",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 15,
+        "titulo": "The Silence of the Lambs",
+        "año": 1991,
+        "duracion": 118,
+        "genero": "Thriller",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 16,
+        "titulo": "Se7en",
+        "año": 1995,
+        "duracion": 127,
+        "genero": "Thriller",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 17,
+        "titulo": "Goodfellas",
+        "año": 1990,
+        "duracion": 146,
+        "genero": "Crimen",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 18,
+        "titulo": "The Departed",
+        "año": 2006,
+        "duracion": 151,
+        "genero": "Crimen",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 19,
+        "titulo": "Whiplash",
+        "año": 2014,
+        "duracion": 106,
+        "genero": "Drama",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 20,
+        "titulo": "La La Land",
+        "año": 2016,
+        "duracion": 128,
+        "genero": "Musical",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 21,
+        "titulo": "The Lord of the Rings: The Fellowship of the Ring",
+        "año": 2001,
+        "duracion": 178,
+        "genero": "Fantasía",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 22,
+        "titulo": "The Lord of the Rings: The Two Towers",
+        "año": 2002,
+        "duracion": 179,
+        "genero": "Fantasía",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 23,
+        "titulo": "The Lord of the Rings: The Return of the King",
+        "año": 2003,
+        "duracion": 201,
+        "genero": "Fantasía",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 24,
+        "titulo": "Star Wars: A New Hope",
+        "año": 1977,
+        "duracion": 121,
+        "genero": "Ciencia ficción",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 25,
+        "titulo": "Star Wars: The Empire Strikes Back",
+        "año": 1980,
+        "duracion": 124,
+        "genero": "Ciencia ficción",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 26,
+        "titulo": "Star Wars: Return of the Jedi",
+        "año": 1983,
+        "duracion": 131,
+        "genero": "Ciencia ficción",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 27,
+        "titulo": "Back to the Future",
+        "año": 1985,
+        "duracion": 116,
+        "genero": "Aventura",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 28,
+        "titulo": "Jurassic Park",
+        "año": 1993,
+        "duracion": 127,
+        "genero": "Aventura",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 29,
+        "titulo": "The Lion King",
+        "año": 1994,
+        "duracion": 88,
+        "genero": "Animación",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 30,
+        "titulo": "Toy Story",
+        "año": 1995,
+        "duracion": 81,
+        "genero": "Animación",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 31,
+        "titulo": "Finding Nemo",
+        "año": 2003,
+        "duracion": 100,
+        "genero": "Animación",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 32,
+        "titulo": "Shrek",
+        "año": 2001,
+        "duracion": 90,
+        "genero": "Animación",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 33,
+        "titulo": "The Incredibles",
+        "año": 2004,
+        "duracion": 115,
+        "genero": "Animación",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 34,
+        "titulo": "WALL·E",
+        "año": 2008,
+        "duracion": 98,
+        "genero": "Animación",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 35,
+        "titulo": "Up",
+        "año": 2009,
+        "duracion": 96,
+        "genero": "Animación",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 36,
+        "titulo": "Spirited Away",
+        "año": 2001,
+        "duracion": 125,
+        "genero": "Animación",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en",
+            "jp"
+        ]
+    },
+    {
+        "id": 37,
+        "titulo": "Princess Mononoke",
+        "año": 1997,
+        "duracion": 134,
+        "genero": "Animación",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en",
+            "jp"
+        ]
+    },
+    {
+        "id": 38,
+        "titulo": "The Green Mile",
+        "año": 1999,
+        "duracion": 189,
+        "genero": "Drama",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 39,
+        "titulo": "The Truman Show",
+        "año": 1998,
+        "duracion": 103,
+        "genero": "Drama",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 40,
+        "titulo": "The Social Network",
+        "año": 2010,
+        "duracion": 120,
+        "genero": "Drama",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 41,
+        "titulo": "Joker",
+        "año": 2019,
+        "duracion": 122,
+        "genero": "Drama",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 42,
+        "titulo": "Black Panther",
+        "año": 2018,
+        "duracion": 134,
+        "genero": "Acción",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 43,
+        "titulo": "Iron Man",
+        "año": 2008,
+        "duracion": 126,
+        "genero": "Acción",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 44,
+        "titulo": "The Avengers",
+        "año": 2012,
+        "duracion": 143,
+        "genero": "Acción",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 45,
+        "titulo": "Avengers: Endgame",
+        "año": 2019,
+        "duracion": 181,
+        "genero": "Acción",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 46,
+        "titulo": "Dune",
+        "año": 2021,
+        "duracion": 155,
+        "genero": "Ciencia ficción",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 47,
+        "titulo": "Mad Max: Fury Road",
+        "año": 2015,
+        "duracion": 120,
+        "genero": "Acción",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 48,
+        "titulo": "The Revenant",
+        "año": 2015,
+        "duracion": 156,
+        "genero": "Aventura",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 49,
+        "titulo": "Parasite",
+        "año": 2019,
+        "duracion": 132,
+        "genero": "Thriller",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en",
+            "ko"
+        ]
+    },
+    {
+        "id": 50,
+        "titulo": "Oldboy",
+        "año": 2003,
+        "duracion": 120,
+        "genero": "Thriller",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en",
+            "ko"
+        ]
+    },
+    {
+        "id": 51,
+        "titulo": "The Pianist",
+        "año": 2002,
+        "duracion": 150,
+        "genero": "Drama",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 52,
+        "titulo": "The Wolf of Wall Street",
+        "año": 2013,
+        "duracion": 180,
+        "genero": "Biografía",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 53,
+        "titulo": "Her",
+        "año": 2013,
+        "duracion": 126,
+        "genero": "Drama",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 54,
+        "titulo": "Gravity",
+        "año": 2013,
+        "duracion": 91,
+        "genero": "Ciencia ficción",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 55,
+        "titulo": "The Shape of Water",
+        "año": 2017,
+        "duracion": 123,
+        "genero": "Fantasía",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 56,
+        "titulo": "Get Out",
+        "año": 2017,
+        "duracion": 104,
+        "genero": "Terror",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 57,
+        "titulo": "It",
+        "año": 2017,
+        "duracion": 135,
+        "genero": "Terror",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 58,
+        "titulo": "The Conjuring",
+        "año": 2013,
+        "duracion": 112,
+        "genero": "Terror",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 59,
+        "titulo": "A Quiet Place",
+        "año": 2018,
+        "duracion": 90,
+        "genero": "Terror",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 60,
+        "titulo": "The Exorcist",
+        "año": 1973,
+        "duracion": 122,
+        "genero": "Terror",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 61,
+        "titulo": "The Shining",
+        "año": 1980,
+        "duracion": 144,
+        "genero": "Terror",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 62,
+        "titulo": "Blade Runner",
+        "año": 1982,
+        "duracion": 117,
+        "genero": "Ciencia ficción",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 63,
+        "titulo": "Blade Runner 2049",
+        "año": 2017,
+        "duracion": 164,
+        "genero": "Ciencia ficción",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 64,
+        "titulo": "Alien",
+        "año": 1979,
+        "duracion": 117,
+        "genero": "Ciencia ficción",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 65,
+        "titulo": "Aliens",
+        "año": 1986,
+        "duracion": 137,
+        "genero": "Ciencia ficción",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 66,
+        "titulo": "The Terminator",
+        "año": 1984,
+        "duracion": 107,
+        "genero": "Acción",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 67,
+        "titulo": "Terminator 2: Judgment Day",
+        "año": 1991,
+        "duracion": 137,
+        "genero": "Acción",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 68,
+        "titulo": "Rocky",
+        "año": 1976,
+        "duracion": 120,
+        "genero": "Drama",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 69,
+        "titulo": "Raging Bull",
+        "año": 1980,
+        "duracion": 129,
+        "genero": "Biografía",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 70,
+        "titulo": "Taxi Driver",
+        "año": 1976,
+        "duracion": 113,
+        "genero": "Drama",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 71,
+        "titulo": "Casablanca",
+        "año": 1942,
+        "duracion": 102,
+        "genero": "Romance",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 72,
+        "titulo": "Citizen Kane",
+        "año": 1941,
+        "duracion": 119,
+        "genero": "Drama",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 73,
+        "titulo": "Psycho",
+        "año": 1960,
+        "duracion": 109,
+        "genero": "Terror",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 74,
+        "titulo": "Vertigo",
+        "año": 1958,
+        "duracion": 128,
+        "genero": "Suspense",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 75,
+        "titulo": "Rear Window",
+        "año": 1954,
+        "duracion": 112,
+        "genero": "Suspense",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 76,
+        "titulo": "12 Angry Men",
+        "año": 1957,
+        "duracion": 96,
+        "genero": "Drama",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 77,
+        "titulo": "Schindler's List",
+        "año": 1993,
+        "duracion": 195,
+        "genero": "Drama",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 78,
+        "titulo": "American Beauty",
+        "año": 1999,
+        "duracion": 122,
+        "genero": "Drama",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 79,
+        "titulo": "No Country for Old Men",
+        "año": 2007,
+        "duracion": 122,
+        "genero": "Crimen",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 80,
+        "titulo": "The Big Lebowski",
+        "año": 1998,
+        "duracion": 117,
+        "genero": "Comedia",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 81,
+        "titulo": "Amélie",
+        "año": 2001,
+        "duracion": 122,
+        "genero": "Romance",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en",
+            "fr"
+        ]
+    },
+    {
+        "id": 82,
+        "titulo": "The Intouchables",
+        "año": 2011,
+        "duracion": 112,
+        "genero": "Drama",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en",
+            "fr"
+        ]
+    },
+    {
+        "id": 83,
+        "titulo": "City of God",
+        "año": 2002,
+        "duracion": 130,
+        "genero": "Crimen",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en",
+            "pt"
+        ]
+    },
+    {
+        "id": 84,
+        "titulo": "Pan's Labyrinth",
+        "año": 2006,
+        "duracion": 118,
+        "genero": "Fantasía",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 85,
+        "titulo": "Roma",
+        "año": 2018,
+        "duracion": 135,
+        "genero": "Drama",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 86,
+        "titulo": "Slumdog Millionaire",
+        "año": 2008,
+        "duracion": 120,
+        "genero": "Drama",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 87,
+        "titulo": "Million Dollar Baby",
+        "año": 2004,
+        "duracion": 132,
+        "genero": "Drama",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 88,
+        "titulo": "The King's Speech",
+        "año": 2010,
+        "duracion": 118,
+        "genero": "Biografía",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 89,
+        "titulo": "Argo",
+        "año": 2012,
+        "duracion": 120,
+        "genero": "Thriller",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 90,
+        "titulo": "Moonlight",
+        "año": 2016,
+        "duracion": 111,
+        "genero": "Drama",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 91,
+        "titulo": "Manchester by the Sea",
+        "año": 2016,
+        "duracion": 137,
+        "genero": "Drama",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 92,
+        "titulo": "Birdman",
+        "año": 2014,
+        "duracion": 119,
+        "genero": "Drama",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 93,
+        "titulo": "Django Unchained",
+        "año": 2012,
+        "duracion": 165,
+        "genero": "Western",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 94,
+        "titulo": "Inglourious Basterds",
+        "año": 2009,
+        "duracion": 153,
+        "genero": "Bélico",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 95,
+        "titulo": "The Hateful Eight",
+        "año": 2015,
+        "duracion": 168,
+        "genero": "Western",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 96,
+        "titulo": "La vita è bella",
+        "año": 1997,
+        "duracion": 116,
+        "genero": "Drama",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en",
+            "it"
+        ]
+    },
+    {
+        "id": 97,
+        "titulo": "Requiem for a Dream",
+        "año": 2000,
+        "duracion": 102,
+        "genero": "Drama",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 98,
+        "titulo": "Memento",
+        "año": 2000,
+        "duracion": 113,
+        "genero": "Thriller",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 99,
+        "titulo": "Eternal Sunshine of the Spotless Mind",
+        "año": 2004,
+        "duracion": 108,
+        "genero": "Drama",
+        "adultos": false,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    },
+    {
+        "id": 100,
+        "titulo": "Donnie Darko",
+        "año": 2001,
+        "duracion": 113,
+        "genero": "Drama",
+        "adultos": true,
+        "subtitulos": [
+            "es",
+            "en"
+        ]
+    }
+]
